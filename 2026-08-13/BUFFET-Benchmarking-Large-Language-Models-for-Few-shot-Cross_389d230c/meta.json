@@ -4,5 +4,33 @@
  "title": "BUFFET-Benchmarking-Large-Language-Models-for-Few-shot-Cross",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e24dc647-27b0-4a44-a8ae-4c65e27ab4ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e24dc647-27b0-4a44-a8ae-4c65e27ab4ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:12:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "少样本迁移",
+    "跨语言迁移",
+    "上下文学习",
+    "多语言大语言模型",
+    "基准评测",
+    "指令微调"
+   ],
+   "field": "跨语言自然语言处理",
+   "innovations": [
+    "提出 BUFFET 统一基准，将 15 个任务与 54 种语言统一为固定 k-shot text-to-text 格式进行少样本跨语言迁移评测",
+    "揭示强大多语言 LLM 的 ICL 在少样本跨语言设置下显著落后于小参数微调模型，尤其低资源语言",
+    "发现指令微调模型（如 mT0）在少样本 ICL 设置下出现性能退化，可能因过度拟合零样本指令训练"
+   ],
+   "benchmarks": [
+    "BUFFET",
+    "BUFFET-Light",
+    "XTREME",
+    "XTREME-R",
+    "MEGA"
+   ]
+  }
+ }
 }

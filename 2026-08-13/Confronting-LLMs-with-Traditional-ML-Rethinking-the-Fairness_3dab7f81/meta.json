@@ -4,5 +4,31 @@
  "title": "Confronting-LLMs-with-Traditional-ML-Rethinking-the-Fairness",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 05:40:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ab3418a2-4a6f-4f98-90cc-edd3f2f9d84b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ab3418a2-4a6f-4f98-90cc-edd3f2f9d84b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:13:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "公平性",
+    "大语言模型",
+    "表格分类",
+    "社会偏见",
+    "上下文学习",
+    "去偏"
+   ],
+   "field": "AI公平性与可解释性",
+   "innovations": [
+    "首次系统评估LLMs在表格分类中的公平性，揭示预训练偏见内在性",
+    "发现标签翻转可显著缩小公平性差距但损害性能",
+    "证明数据重采样对LLMs的公平性改善效果有限"
+   ],
+   "benchmarks": [
+    "Adult Income",
+    "German Credit",
+    "COMPAS Recidivism"
+   ]
+  }
+ }
 }

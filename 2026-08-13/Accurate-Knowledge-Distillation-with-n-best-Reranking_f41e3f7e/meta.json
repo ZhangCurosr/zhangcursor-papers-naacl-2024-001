@@ -4,5 +4,30 @@
  "title": "Accurate-Knowledge-Distillation-with-n-best-Reranking",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 05:39:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d4f25428-684b-44be-a840-66218e6f41c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d4f25428-684b-44be-a840-66218e6f41c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:11:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge distillation",
+    "n-best reranking",
+    "neural machine translation",
+    "self-training",
+    "model ensembling",
+    "WMT21"
+   ],
+   "field": "神经机器翻译",
+   "innovations": [
+    "将n-best reranking引入SeqKD，利用多样化模型集合生成高质量伪标签",
+    "通过KB-MIRA判别式训练自动学习评分模型权重并实现稀疏模型选择",
+    "验证n-best伪标签自训练的级联效应，68M学生模型达到4.7B大模型相当性能"
+   ],
+   "benchmarks": [
+    "WMT21 German-English",
+    "WMT21 Chinese-English"
+   ]
+  }
+ }
 }

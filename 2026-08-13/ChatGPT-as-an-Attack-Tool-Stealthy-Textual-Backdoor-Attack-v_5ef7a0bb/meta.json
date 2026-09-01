@@ -4,5 +4,32 @@
  "title": "ChatGPT-as-an-Attack-Tool-Stealthy-Textual-Backdoor-Attack-v",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2ff80041-09c4-4e80-b249-8b2e1fadf370.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2ff80041-09c4-4e80-b249-8b2e1fadf370.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:12:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "textual backdoor attack",
+    "blackbox generative model",
+    "ChatGPT",
+    "data poisoning",
+    "stealthiness evaluation",
+    "prompt engineering"
+   ],
+   "field": "NLP安全与后门攻击",
+   "innovations": [
+    "首次将ChatGPT等黑盒生成模型的条件概率分布作为隐式触发器实施文本后门攻击",
+    "证明不同prompt角色可生成差异化trigger且跨prompt迁移性低",
+    "建立PPL/GE/CoLA/SentM四维隐蔽性评估体系并发现长文本攻击效能反而提升"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "Amazon Review",
+    "Yelp Polarity",
+    "IMDb"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "DynaMo-Accelerating-Language-Model-Inference-with-Dynamic-Mu",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/615bab6e-62a0-446b-8880-b6f01859f090.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/615bab6e-62a0-446b-8880-b6f01859f090.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:14:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-token prediction",
+    "LLM inference acceleration",
+    "non-autoregressive generation",
+    "dynamic decoding",
+    "language model efficiency"
+   ],
+   "field": "高效大语言模型推理",
+   "innovations": [
+    "动态多token预测框架，基于置信度自适应调整生成token数",
+    "共现加权掩码修正联合概率估计，结合最优传输理论",
+    "分层学习率高效微调策略，仅6%参数开销实现2.57倍加速"
+   ],
+   "benchmarks": [
+    "Pythia suite",
+    "Vicuna benchmark",
+    "sentence-completion benchmark",
+    "ARC-c/e, BoolQ, COPA, HellaSwag, OBQA, PIQA, WinoG"
+   ]
+  }
+ }
 }

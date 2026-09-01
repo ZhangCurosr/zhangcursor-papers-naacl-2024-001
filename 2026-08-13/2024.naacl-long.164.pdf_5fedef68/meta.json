@@ -3,5 +3,30 @@
  "batch_id": "5fedef68-83c7-4d59-aa2a-d08554c8f0d4",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 02:46:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba0b6b65-3800-46c5-91ba-a7fbe92b7b9d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba0b6b65-3800-46c5-91ba-a7fbe92b7b9d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:11:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "topic modeling",
+    "large language models",
+    "prompt-based methods",
+    "interpretable AI",
+    "text analysis",
+    "content analysis"
+   ],
+   "field": "自然语言处理-文本挖掘",
+   "innovations": [
+    "提出两阶段LLM提示框架实现可解释主题建模",
+    "为文档-主题分配提供原文引用证据增强可验证性",
+    "通过迭代生成+语义精炼实现无需训练的主题定制"
+   ],
+   "benchmarks": [
+    "Wiki (Wikipedia articles)",
+    "Bills (Congressional bills)"
+   ]
+  }
+ }
 }

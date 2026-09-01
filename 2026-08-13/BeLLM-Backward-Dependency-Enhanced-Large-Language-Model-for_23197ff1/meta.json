@@ -4,5 +4,34 @@
  "title": "BeLLM-Backward-Dependency-Enhanced-Large-Language-Model-for",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cb07b72c-661c-4cbc-ae12-ebf9f752aa4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cb07b72c-661c-4cbc-ae12-ebf9f752aa4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:12:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "句子嵌入",
+    "向后依赖",
+    "大语言模型",
+    "对比学习",
+    "语义相似度",
+    "自回归模型",
+    "LoRA微调"
+   ],
+   "field": "句子表示学习",
+   "innovations": [
+    "首次量化验证向后依赖对自回归LLM句子嵌入的价值",
+    "提出单向/双向混合层架构BeLLM并通过退化实验确定转折点",
+    "结合代表性词策略与对比学习实现SOTA句子嵌入"
+   ],
+   "benchmarks": [
+    "STS-B",
+    "C-STS",
+    "SICK-R",
+    "STS 2012-2016",
+    "flickr30k"
+   ]
+  }
+ }
 }

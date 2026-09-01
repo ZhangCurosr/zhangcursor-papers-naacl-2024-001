@@ -4,5 +4,34 @@
  "title": "Fair-Abstractive-Summarization-of-Diverse-Perspectives",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 05:40:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce73ce4e-1829-4a40-ab17-3c77cad35f12.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce73ce4e-1829-4a40-ab17-3c77cad35f12.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:16:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "公平摘要",
+    "大语言模型评估",
+    "社会属性偏差",
+    "抽象文本摘要",
+    "无参考评估指标"
+   ],
+   "field": "自然语言生成公平性",
+   "innovations": [
+    "提出BUR/UER/AUC/SOF四个无参考公平度量指标",
+    "构建PERSPECTIVESUMM六域多属性公平摘要基准",
+    "发现LLaMA系列摘要公平性整体优于GPT系列"
+   ],
+   "benchmarks": [
+    "PERSPECTIVESUMM",
+    "Claritin",
+    "US Election",
+    "Yelp",
+    "Amazon",
+    "SupremeCourt",
+    "IQ2"
+   ]
+  }
+ }
 }

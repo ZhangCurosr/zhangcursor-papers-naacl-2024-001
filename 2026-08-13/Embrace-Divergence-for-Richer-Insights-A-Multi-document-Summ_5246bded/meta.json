@@ -4,5 +4,31 @@
  "title": "Embrace-Divergence-for-Richer-Insights-A-Multi-document-Summ",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c858f11b-bd46-42c2-94ca-af9e5bd4baeb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c858f11b-bd46-42c2-94ca-af9e5bd4baeb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:14:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多文档摘要",
+    "多样性摘要",
+    "LLM评估偏差",
+    "faithfulness",
+    "coverage",
+    "GPT-4",
+    "QA representation"
+   ],
+   "field": "多文档摘要",
+   "innovations": [
+    "提出MDDS任务并以QA形式构建DIVERSESUMM数据集",
+    "系统分析GPT-4作为评估器时的位置偏差与冗长度偏差并提出最佳实践",
+    "揭示LLM在多文档多样性摘要中的系统性覆盖模式与偏差"
+   ],
+   "benchmarks": [
+    "DIVERSESUMM",
+    "GPT-4 human correlation"
+   ]
+  }
+ }
 }

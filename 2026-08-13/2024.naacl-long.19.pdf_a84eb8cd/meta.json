@@ -3,5 +3,29 @@
  "batch_id": "a84eb8cd-24ab-4c82-8041-1ec04ef73679",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 02:45:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3190e3d9-3b4d-4c27-b211-587a17a09929.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3190e3d9-3b4d-4c27-b211-587a17a09929.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:11:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Task-Oriented Parsing",
+    "In-Context Learning",
+    "kNN Retrieval",
+    "Code Generation",
+    "Semantic Parsing",
+    "Large Language Models"
+   ],
+   "field": "任务导向语义解析",
+   "innovations": [
+    "将TOP任务形式化为代码生成任务并系统分析prompt设计策略",
+    "提出kNN-ICL方法结合最近邻检索与上下文学习解决长度限制问题",
+    "基于目标语句与已生成token组合表示解决kNN检索表示空间不一致"
+   ],
+   "benchmarks": [
+    "TOPv2"
+   ]
+  }
+ }
 }

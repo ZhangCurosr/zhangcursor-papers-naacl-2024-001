@@ -4,5 +4,32 @@
  "title": "FUN-with-Fisher-Improving-Generalization-of-Adapter-Based-Cr",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 05:40:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7b2a483d-920f-4614-b631-2f7a78dc2159.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7b2a483d-920f-4614-b631-2f7a78dc2159.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:16:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-lingual transfer",
+    "parameter-efficient fine-tuning",
+    "scheduled unfreezing",
+    "Fisher information",
+    "adapter",
+    "generalization"
+   ],
+   "field": "跨语言自然语言处理",
+   "innovations": [
+    "首次证明计划性解冻在CF-free adapter训练下可缩小与全参数微调的跨语言性能差距",
+    "提出基于Fisher信息矩阵迹的自动解冻算法FUN，平均提升2分",
+    "发现tr(F)学习动态与跨语言泛化性能的相关性并提供理论解释"
+   ],
+   "benchmarks": [
+    "MLQA",
+    "XQuAD",
+    "XCOPA",
+    "XNLI"
+   ]
+  }
+ }
 }

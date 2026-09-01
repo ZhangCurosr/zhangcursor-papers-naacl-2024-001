@@ -4,5 +4,33 @@
  "title": "Fine-Tuning-Language-Models-with-Reward-Learning-on-Policy",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:39:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5da676e0-6cf5-409b-808a-9d149244e7c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5da676e0-6cf5-409b-808a-9d149244e7c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:17:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLHF",
+    "Reward Model",
+    "Policy Optimization",
+    "Information Bottleneck",
+    "Synthetic Preference",
+    "Language Model Alignment",
+    "Multi-view Learning"
+   ],
+   "field": "大语言模型对齐与偏好优化",
+   "innovations": [
+    "提出RLP无监督框架，利用策略样本再训练奖励模型保持分布一致性",
+    "设计多视图信息瓶颈损失学习策略分布的鲁棒语义表示",
+    "提出基于语义聚类的合成偏好生成与置信度选择性生成机制"
+   ],
+   "benchmarks": [
+    "AlpacaFarm",
+    "LLMBar",
+    "Vicuna",
+    "MMLU"
+   ]
+  }
+ }
 }

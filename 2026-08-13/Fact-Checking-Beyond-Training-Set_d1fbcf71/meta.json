@@ -4,5 +4,29 @@
  "title": "Fact-Checking-Beyond-Training-Set",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d5f8c96-d510-4d8f-9b7d-f2e90cfc1fd4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d5f8c96-d510-4d8f-9b7d-f2e90cfc1fd4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:16:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fact-checking",
+    "domain-adaptation",
+    "dense-retrieval",
+    "adversarial-training",
+    "representation-alignment"
+   ],
+   "field": "自动事实核查与跨域泛化",
+   "innovations": [
+    "retriever分离式对抗训练使目标域表征对齐源域空间",
+    "reader反转数据增强提升顺序不变性鲁棒性",
+    "自动构建多域事实核查基准8个跨域场景"
+   ],
+   "benchmarks": [
+    "MultiFC",
+    "Snopes"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "FPT-Feature-Prompt-Tuning-for-Few-shot-Readability-Assessmen",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 05:40:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/379b0d78-6aa0-4bf1-95b8-8e10b8ba4f7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/379b0d78-6aa0-4bf1-95b8-8e10b8ba4f7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:16:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "readability assessment",
+    "prompt tuning",
+    "few-shot learning",
+    "linguistic features",
+    "soft prompt",
+    "feature fusion"
+   ],
+   "field": "可读性评估与少样本学习",
+   "innovations": [
+    "将语言学特征通过MultiHeadMLP映射为可训练软提示向量融入prompt输入",
+    "设计基于ListMLE的类别间相似性校准损失以保持特征嵌入前后排序一致性",
+    "提出分类损失与校准损失交替训练策略优化特征嵌入"
+   ],
+   "benchmarks": [
+    "ChineseLR",
+    "WeeBit",
+    "Cambridge"
+   ]
+  }
+ }
 }

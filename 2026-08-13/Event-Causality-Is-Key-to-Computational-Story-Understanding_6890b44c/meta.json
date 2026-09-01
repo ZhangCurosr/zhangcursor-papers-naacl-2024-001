@@ -4,5 +4,32 @@
  "title": "Event-Causality-Is-Key-to-Computational-Story-Understanding",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 05:40:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ff0335ca-d26a-45fb-a95b-3e367bb58f49.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ff0335ca-d26a-45fb-a95b-3e367bb58f49.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:16:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件因果关系",
+    "故事理解",
+    "大语言模型",
+    "少样本学习",
+    "视频-文本对齐",
+    "因果推理"
+   ],
+   "field": "计算叙事理解",
+   "innovations": [
+    "首个基于LLM提示的事件因果关系抽取方法并设立COPES基准新SOTA",
+    "首次实证验证因果结构对故事质量评估和视频-文本对齐的显著提升"
+   ],
+   "benchmarks": [
+    "COPES",
+    "GLUCOSE",
+    "OpenMEVA",
+    "SyMoN",
+    "YMS"
+   ]
+  }
+ }
 }

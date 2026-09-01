@@ -4,5 +4,27 @@
  "title": "First-Tragedy-then-Parse-History-Repeats-Itself-in-the-New-E",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd85286e-f86b-4218-853e-85aed2b96b09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd85286e-f86b-4218-853e-85aed2b96b09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:17:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "规模危机",
+    "评估方法",
+    "统计机器翻译",
+    "RLHF",
+    "低资源NLP",
+    "硬件彩票"
+   ],
+   "field": "NLP研究方法论与历史反思",
+   "innovations": [
+    "首次系统回顾SMT时代经验为LLM时代提供研究方向指引",
+    "批判性论证人类反馈不能充当评估黄金标准",
+    "提出四条适用于任何规模危机时代的永恒研究教训"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Ensuring-Safe-and-High-Quality-Outputs-A-Guideline-Library-A",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 05:39:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/46da5775-c691-422c-abcb-5222256b2aa4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/46da5775-c691-422c-abcb-5222256b2aa4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:14:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM对齐",
+    "安全对齐",
+    "指南检索",
+    "RAG",
+    "自我对齐",
+    "Labrador"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "提出Guide-Align框架，通过安全LLM自动生成输入定制化细粒度指南并构建检索模型实现即插即用对齐",
+    "设计安全检测分流机制，按输入风险类型分别生成安全/质量指南",
+    "构建对齐数据集并微调得到13B规模的Labrador，对齐能力超越GPT-3.5-turbo和GPT-4"
+   ],
+   "benchmarks": [
+    "Do_Not_Answer",
+    "HHH_Alignment",
+    "Vicuna_Benchmark"
+   ]
+  }
+ }
 }

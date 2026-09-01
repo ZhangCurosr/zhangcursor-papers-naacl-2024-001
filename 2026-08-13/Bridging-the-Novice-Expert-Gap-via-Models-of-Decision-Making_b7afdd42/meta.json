@@ -4,5 +4,30 @@
  "title": "Bridging-the-Novice-Expert-Gap-via-Models-of-Decision-Making",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e99d3d7e-d1c0-4919-8504-bed7e7ddbd8b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e99d3d7e-d1c0-4919-8504-bed7e7ddbd8b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:12:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cognitive Task Analysis",
+    "Math Tutoring",
+    "LLM Remediation",
+    "Expert-Novice Gap",
+    "Decision Modeling",
+    "Education NLP"
+   ],
+   "field": "教育领域大语言模型应用",
+   "innovations": [
+    "将专家隐性思维形式化为三步决策模型（错误→策略→意图）并注入 LLM prompt",
+    "开源首个真实 Title I 学校数学辅导专家标注数据集（700 条）"
+   ],
+   "benchmarks": [
+    "Human preference + usefulness + care + human-soundingness (4-dim Likert)",
+    "Decision path entropy",
+    "Lexical bigram log-odds analysis"
+   ]
+  }
+ }
 }

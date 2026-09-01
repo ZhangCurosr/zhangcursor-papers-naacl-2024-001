@@ -4,5 +4,28 @@
  "title": "FLAP-Flow-Adhering-Planning-with-Constrained-Decoding-in-LLM",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/256882d2-ffe7-446f-973e-72746748124d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/256882d2-ffe7-446f-973e-72746748124d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:15:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "任务导向对话",
+    "约束解码",
+    "大语言模型规划",
+    "API依赖",
+    "忠实规划",
+    "零样本学习"
+   ],
+   "field": "任务导向对话与大模型规划",
+   "innovations": [
+    "提出FLAP算法：基于带前瞻启发式的约束解码，使LLM零样本生成忠实于预设流程和API依赖的计划",
+    "构建首个同时包含密集API依赖和NL流程的TOD规划评测数据集（4领域/64API/260查询）"
+   ],
+   "benchmarks": [
+    "自建TOD Faithful Planning Benchmark (4 domains, 13 intents, 64 APIs, 260 queries)"
+   ]
+  }
+ }
 }

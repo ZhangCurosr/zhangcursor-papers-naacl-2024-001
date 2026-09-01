@@ -4,5 +4,32 @@
  "title": "Contextual-Refinement-of-Translations-Large-Language-Models",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0f76ba0-5fbd-4bbe-9ac8-9212ed137e88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0f76ba0-5fbd-4bbe-9ac8-9212ed137e88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:13:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动译后编辑",
+    "大语言模型",
+    "文档级机器翻译",
+    "Q-LoRA",
+    "代词消歧",
+    "神经机器翻译"
+   ],
+   "field": "文档级机器翻译",
+   "innovations": [
+    "提出NMT+LLM级联APE框架，将LLM定位为纠错者而非翻译者",
+    "扩展至文档级APE，提出三种解码策略并验证上下文利用效果",
+    "引入迭代式手动反馈集成机制，无需重新训练即可利用人工校对"
+   ],
+   "benchmarks": [
+    "MuST-C V3",
+    "WMT21 News",
+    "ACL Dev IWSLT23",
+    "ContraPro"
+   ]
+  }
+ }
 }

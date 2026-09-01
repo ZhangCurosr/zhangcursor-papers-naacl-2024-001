@@ -4,5 +4,31 @@
  "title": "Evaluating-Large-Language-Models-as-Generative-User-Simulato",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:40:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0d0f36c4-387f-4a17-9066-549c9caf96db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0d0f36c4-387f-4a17-9066-549c9caf96db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:15:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话推荐系统",
+    "用户模拟器",
+    "大语言模型评估",
+    "生成式代理",
+    "人机交互"
+   ],
+   "field": "对话推荐系统评估",
+   "innovations": [
+    "首个对话推荐用户模拟器五任务评估协议",
+    "揭示LLM模拟器的系统性偏差（物品多样性、偏好对齐、请求个性化）",
+    "验证交互历史和性格提示策略的有效性"
+   ],
+   "benchmarks": [
+    "ReDial",
+    "MovieLens",
+    "IMDB",
+    "Reddit"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Embodied-Executable-Policy-Learning-with-Language-based-Scen",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 05:40:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8927fa13-8b4e-4654-a948-737b4dd98929.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8927fa13-8b4e-4654-a948-737b4dd98929.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:14:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "具身智能",
+    "大语言模型",
+    "模仿学习",
+    "强化学习",
+    "视觉-语言导航",
+    "机器人策略学习",
+    "VirtualHome"
+   ],
+   "field": "具身智能与语言模型结合的策略学习",
+   "innovations": [
+    "提出纯视觉输入的两阶段 SUM+APM 范式，将图像描述与可执行程序生成统一于 LLM 框架内",
+    "同时支持 IL（交叉熵）和 RL（REINFORCE）两种微调策略，RL 可在稀疏环境反馈下继续优化策略",
+    "构建了 VirtualHome 三视角大规模图像-动作配对数据集并开源代码，系统评估了多种 SUM/APM 组合"
+   ],
+   "benchmarks": [
+    "VirtualHome",
+    "VirtualHome (7个布局环境)",
+    "Li et al. (2022b) baseline"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Extractive-Summarization-with-Text-Generator",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a9c267a-e40c-4912-b8f4-11e3ab57ca9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a9c267a-e40c-4912-b8f4-11e3ab57ca9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:15:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "extractive summarization",
+    "abstractive-to-extractive",
+    "heuristic search",
+    "pseudo-reference",
+    "faithfulness",
+    "ROUGE"
+   ],
+   "field": "文本摘要",
+   "innovations": [
+    "提出Abstract2Extract框架，利用abstractive生成器输出作为伪参考通过启发式搜索构造抽取式摘要，无需抽取式训练",
+    "发现更好生成器与更好抽取摘要之间的正相关规律，为零抽取监督训练提供新思路",
+    "在六个摘要基准上零抽取训练即达到或超越SOTA，同时天然支持双模式输出提升实际部署灵活性"
+   ],
+   "benchmarks": [
+    "CNN/DailyMail",
+    "XSum",
+    "Reddit-TIFU",
+    "WikiHow",
+    "PubMed",
+    "Multi-News"
+   ]
+  }
+ }
 }
