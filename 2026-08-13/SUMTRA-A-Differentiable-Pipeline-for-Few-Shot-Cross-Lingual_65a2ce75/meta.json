@@ -4,5 +4,30 @@
  "title": "SUMTRA-A-Differentiable-Pipeline-for-Few-Shot-Cross-Lingual",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 03:40:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49556ef9-d4e6-4f1e-839e-386e6aaf24cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49556ef9-d4e6-4f1e-839e-386e6aaf24cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-lingual summarization",
+    "few-shot learning",
+    "summarize-and-translate pipeline",
+    "differentiable pipeline",
+    "back-translation loss",
+    "cross-lingual NLP",
+    "low-resource languages"
+   ],
+   "field": "跨语言文本生成",
+   "innovations": [
+    "通过软预测期望嵌入实现端到端可微分 pipeline，避免传统 pipeline 的梯度断裂问题",
+    "设计回译辅助损失约束中间摘要与目标语言参考的对齐，以极少量标注数据获得强少样本性能"
+   ],
+   "benchmarks": [
+    "CrossSum",
+    "WikiLingua"
+   ]
+  }
+ }
 }

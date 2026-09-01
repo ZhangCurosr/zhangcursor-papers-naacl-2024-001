@@ -4,5 +4,31 @@
  "title": "The-Colorful-Future-of-LLMs-Evaluating-and-Improving-LLMs-as",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:54:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26bb28b4-ed52-4485-919b-9209e9bc2e53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26bb28b4-ed52-4485-919b-9209e9bc2e53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:34:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "情感支持",
+    "LGBTQ+",
+    "心理健康",
+    "评估量表",
+    "提示工程",
+    "AI对齐"
+   ],
+   "field": "情感计算与心理健康AI",
+   "innovations": [
+    "首个面向LGBTQ+青少年书面情感回复质量的十维度心理学驱动评估量表",
+    "构建LGBTeen数据集（1,000帖子/11,320回复/5,000+标注）并开源",
+    "证明Guided Supporter定向提示可显著提升LLM情感支持能力，同时揭示LLM无法替代人类评估真实性"
+   ],
+   "benchmarks": [
+    "LGBTeen Dataset",
+    "r/LGBTeens Reddit Forum"
+   ]
+  }
+ }
 }

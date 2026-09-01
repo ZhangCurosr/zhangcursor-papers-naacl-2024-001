@@ -4,5 +4,31 @@
  "title": "Self-Prompting-Large-Language-Models-for-Zero-Shot-Open-Doma",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4efaa07-82f4-4b2c-85e0-83d4a422a027.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4efaa07-82f4-4b2c-85e0-83d4a422a027.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本问答",
+    "大语言模型",
+    "上下文学习",
+    "伪数据生成",
+    "开放域QA",
+    "Self-Prompting"
+   ],
+   "field": "开放域问答与上下文学习",
+   "innovations": [
+    "提出 Self-Prompting 框架，让 LLM 自主生成伪 QA 数据集用于零样本 ODQA 的上下文学习",
+    "设计基于聚类的检索策略 RetrieveInCluster，平衡示例的相似性与多样性",
+    "提出 QAE 输入格式并证明其优于 Chain-of-Thought 和含段落的全信息格式"
+   ],
+   "benchmarks": [
+    "WebQ",
+    "NQ",
+    "TriviaQA"
+   ]
+  }
+ }
 }

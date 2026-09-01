@@ -4,5 +4,30 @@
  "title": "The-Perspectivist-Paradigm-Shift-Assumptions-and-Challenges",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-13 14:54:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fa2a8bd-9f79-443d-add0-f2d9c91a1e9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fa2a8bd-9f79-443d-add0-f2d9c91a1e9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:35:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "data labeling",
+    "inter-annotator disagreement",
+    "perspectivist paradigm",
+    "machine learning ethics",
+    "subjective NLP",
+    "annotator diversity",
+    "dataset evaluation"
+   ],
+   "field": "NLP数据标注与评估",
+   "innovations": [
+    "系统梳理数据标注从传统范式到视角主义范式的转变并批判性审视两种范式的假设与局限",
+    "提出贯穿数据标注全流程的七项实践建议并引入多学科视角应对规范性挑战"
+   ],
+   "benchmarks": [
+    "多数投票评估（批判性讨论）",
+    "KL散度与校准度评估（建议采用）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,40 @@
  "title": "TRUE-UIE-Two-Universal-Relations-Unify-Information-Extractio",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 03:39:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/354a77ab-2182-4415-9779-de69c520bd58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/354a77ab-2182-4415-9779-de69c520bd58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:34:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Universal Information Extraction",
+    "Token Pair Linking",
+    "IS Relation",
+    "NEXT Relation",
+    "Structure Language Prompt",
+    "Semi-Matrix BiLSTM",
+    "Zero-shot Transfer"
+   ],
+   "field": "信息抽取与结构化预测",
+   "innovations": [
+    "用IS和NEXT两个通用关系统一所有IE任务的学习目标",
+    "结构语言提示将schema信息前置到prompt中",
+    "Semi-Matrix BiLSTM显式建模span内部token序列依赖"
+   ],
+   "benchmarks": [
+    "CoNLL03",
+    "ACE04",
+    "ACE05",
+    "CoNLL04",
+    "NYT",
+    "SciERC",
+    "SemEval-14/15/16",
+    "CADeC",
+    "SAOKE",
+    "CASIE",
+    "GENIA"
+   ]
+  }
+ }
 }

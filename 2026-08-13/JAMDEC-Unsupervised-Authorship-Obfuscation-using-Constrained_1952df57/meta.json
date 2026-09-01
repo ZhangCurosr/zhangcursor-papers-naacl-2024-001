@@ -4,5 +4,34 @@
  "title": "JAMDEC-Unsupervised-Authorship-Obfuscation-using-Constrained",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:40:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d38c1f01-23a4-474e-8e83-f97ca9f221c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d38c1f01-23a4-474e-8e83-f97ca9f221c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:32:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "authorship obfuscation",
+    "constrained decoding",
+    "diverse beam search",
+    "small language models",
+    "privacy preservation",
+    "text rewriting"
+   ],
+   "field": "自然语言处理-作者身份分析与隐私保护",
+   "innovations": [
+    "提出JAMDEC三步框架，将作者身份混淆形式化为约束解码问题，无需监督数据",
+    "设计CoDi-BS融合约束束搜索与多样性束搜索，增强小模型生成能力",
+    "利用语言模型似然进行关键词提取，揭示低概率token对内容保留的有效性"
+   ],
+   "benchmarks": [
+    "AMT-3/5/10",
+    "BLOG-5/10",
+    "Mutant-X",
+    "GPT3.5 175B",
+    "Round-Trip Translation",
+    "Stylometric Obfuscation"
+   ]
+  }
+ }
 }

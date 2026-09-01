@@ -4,5 +4,33 @@
  "title": "Named-Entity-Recognition-Under-Domain-Shift-via-Metric-Learn",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/44809a35-d236-4524-ad69-c5bb790b5aa3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/44809a35-d236-4524-ad69-c5bb790b5aa3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:32:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "命名实体识别",
+    "跨域迁移学习",
+    "度量学习",
+    "多相似性损失",
+    "伪标签",
+    "生物医学NLP",
+    "化学领域"
+   ],
+   "field": "跨域命名实体识别",
+   "innovations": [
+    "利用事件外部知识增强源域实体分组的预训练方法",
+    "基于伪标签和多相似性损失的目标域实体判别机制",
+    "将源/目标域实体投影到特征空间不同区域的度量学习框架"
+   ],
+   "benchmarks": [
+    "CHEMDNER",
+    "BC5CDR",
+    "DrugProt",
+    "CrossNER"
+   ]
+  }
+ }
 }

@@ -4,5 +4,43 @@
  "title": "Instructions-as-Backdoors-Backdoor-Vulnerabilities-of-Instru",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2718fd7a-e2c6-4556-93b1-207be048812f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2718fd7a-e2c6-4556-93b1-207be048812f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor attack",
+    "instruction tuning",
+    "data poisoning",
+    "LLM security",
+    "transferability",
+    "RLHF defense"
+   ],
+   "field": "大语言模型安全与鲁棒性",
+   "innovations": [
+    "提出仅修改指令即可植入后门的指令攻击范式，ASR最高达100%，超越实例级攻击45.5%",
+    "揭示指令攻击的双重可转移性（poison transfer与instruction transfer），中毒模型可零样本污染15个新数据集",
+    "证明持续微调无法清除后门，且RLHF+干净演示可有效缓解攻击"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "HateSpeech",
+    "Tweet Emotion",
+    "TREC Coarse",
+    "ANLI",
+    "RTE",
+    "WiC",
+    "WSC",
+    "Winogrande",
+    "CoPA",
+    "HellaSwag",
+    "PAWS",
+    "Cos-E",
+    "IMDB",
+    "AG News"
+   ]
+  }
+ }
 }

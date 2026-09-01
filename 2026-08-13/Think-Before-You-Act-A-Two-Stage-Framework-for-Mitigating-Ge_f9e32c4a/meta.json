@@ -4,5 +4,35 @@
  "title": "Think-Before-You-Act-A-Two-Stage-Framework-for-Mitigating-Ge",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 06:51:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26028253-6e2b-4b41-95a2-9ebd623bad93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/26028253-6e2b-4b41-95a2-9ebd623bad93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:35:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "gender bias",
+    "vision-language models",
+    "object hallucination",
+    "debiasing",
+    "two-stage framework",
+    "contrastive learning",
+    "image captioning",
+    "image retrieval"
+   ],
+   "field": "视觉-语言模型公平性",
+   "innovations": [
+    "提出性别偏见本质是物体幻觉的理论洞察，并通过实验验证去偏与去幻觉的正相关性",
+    "设计两阶段任务无关框架GAMA（叙事生成+答案推理），实现无需任务微调的跨任务去偏",
+    "引入基于对比学习的性别模糊模块，在特征空间显式分离性别属性与内容信息"
+   ],
+   "benchmarks": [
+    "MSCOCO",
+    "Flickr30K",
+    "VisoGender",
+    "VL-Bias",
+    "Localized Narratives"
+   ]
+  }
+ }
 }

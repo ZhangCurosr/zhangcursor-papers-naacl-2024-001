@@ -4,5 +4,32 @@
  "title": "SEMQA-Semi-Extractive-Multi-Source-Question-Answering",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 06:51:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/22fac89b-b85d-4903-8b1c-09e9115a2117.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/22fac89b-b85d-4903-8b1c-09e9115a2117.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "半抽取式问答",
+    "多源整合",
+    "可验证生成",
+    "长回答QA",
+    "QuoteSum",
+    "SEMQA"
+   ],
+   "field": "开放域问答与可验证生成",
+   "innovations": [
+    "提出SEMQA任务，将半抽取式输出格式与多源问答结合，实现by-design归因",
+    "构建QuoteSum数据集，首个面向半抽取式多源问答的大规模人工标注数据集",
+    "提出纯文本匹配评估指标Sem-F1/Sem-Rec，无需额外模型即可完成精确度与全面性评估"
+   ],
+   "benchmarks": [
+    "QuoteSum",
+    "AmbigQA",
+    "PAQ",
+    "Natural Questions"
+   ]
+  }
+ }
 }

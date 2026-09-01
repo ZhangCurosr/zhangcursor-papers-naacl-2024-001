@@ -4,5 +4,10 @@
  "title": "TopicGPT-A-Prompt-based-Topic-Modeling-Framework",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:54:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba0b6b65-3800-46c5-91ba-a7fbe92b7b9d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba0b6b65-3800-46c5-91ba-a7fbe92b7b9d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:35:54",
+  "chunks": 1
+ }
 }

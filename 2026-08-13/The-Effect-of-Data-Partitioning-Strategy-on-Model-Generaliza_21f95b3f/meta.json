@@ -4,5 +4,33 @@
  "title": "The-Effect-of-Data-Partitioning-Strategy-on-Model-Generaliza",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:40:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7bcb56f5-46fb-4f99-8027-92b14a6aa982.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7bcb56f5-46fb-4f99-8027-92b14a6aa982.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:34:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据划分策略",
+    "模型泛化性",
+    "形态学分词",
+    "低资源语言",
+    "对抗性划分",
+    "随机划分",
+    "跨语言NLP"
+   ],
+   "field": "自然语言处理评估与方法",
+   "innovations": [
+    "系统性比较多语言低资源场景下随机与对抗性划分对模型泛化性和排名稳定性的影响",
+    "提出包含新测试样本生成与模型排名一致性分析的多维评估框架",
+    "在19种语言（含10种濒危语言）上提供随机划分更优的经验证据与统计验证"
+   ],
+   "benchmarks": [
+    "Morpho Challenge",
+    "DARPA LORELEI Program",
+    "Ukwabelana Corpus (Zulu)",
+    "Archive of Indigenous Languages"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "S3Eval-A-Synthetic-Scalable-Systematic-Evaluation-Suite-for",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:51:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bfb2f602-33ad-4e38-98e2-af06e23151b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bfb2f602-33ad-4e38-98e2-af06e23151b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型评估",
+    "合成数据",
+    "长上下文",
+    "SQL执行",
+    "基准测试"
+   ],
+   "field": "LLM评估与基准",
+   "innovations": [
+    "提出基于SQL执行的合成评估套件S3EVAL，支持无限长度和可控难度",
+    "在token级别精确控制答案位置，复现并扩展Lost in the Middle发现",
+    "验证合成SQL执行任务与WikiTableQuestions/BBH/HumanEval的强相关性"
+   ],
+   "benchmarks": [
+    "S3EVAL-Standard",
+    "WikiTableQuestions",
+    "BBH",
+    "HumanEval"
+   ]
+  }
+ }
 }

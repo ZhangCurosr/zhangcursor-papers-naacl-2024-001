@@ -4,5 +4,31 @@
  "title": "The-Perspectivist-Paradigm-Shift-Assumptions-and-Challenges",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-13 03:40:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fa2a8bd-9f79-443d-add0-f2d9c91a1e9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fa2a8bd-9f79-443d-add0-f2d9c91a1e9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:34:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "data labeling",
+    "annotator disagreement",
+    "perspectivist paradigm",
+    "ground truth",
+    "crowdsourcing",
+    "model calibration",
+    "fairness in NLP",
+    "inter-annotator agreement"
+   ],
+   "field": "NLP数据标注与公平性",
+   "innovations": [
+    "系统对比传统ground truth范式与视角主义范式的假设差异，涵盖成因、技术与规范三层",
+    "解构统计bias与社会bias的概念混淆，揭示少数意见被错误当作噪声的机制",
+    "提出从数据采集到模型评估的全流程建议，包括非多数投票评估指标与跨学科框架借鉴"
+   ],
+   "benchmarks": [
+    "无独立实验"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Toward-Informal-Language-Processing-Knowledge-of-Slang-in-La",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 06:51:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e93126b-19ef-4c35-9cbd-d2fc385c57a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e93126b-19ef-4c35-9cbd-d2fc385c57a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:36:07",
+  "chunks": 1
+ }
 }

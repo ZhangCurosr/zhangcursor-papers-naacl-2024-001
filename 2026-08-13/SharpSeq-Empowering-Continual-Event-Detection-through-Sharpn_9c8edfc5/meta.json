@@ -4,5 +4,31 @@
  "title": "SharpSeq-Empowering-Continual-Event-Detection-through-Sharpn",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:51:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bad8de5-ac46-4a95-a776-8c730f91b89a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bad8de5-ac46-4a95-a776-8c730f91b89a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续事件检测",
+    "灾难性遗忘",
+    "尖峰感知最小化",
+    "多目标优化",
+    "生成模型",
+    "知识蒸馏",
+    "重放缓冲区"
+   ],
+   "field": "持续学习与自然语言处理",
+   "innovations": [
+    "选择性SAM：仅对当前任务目标施加尖峰感知，对旧任务保持原始梯度",
+    "生成模型合成旧类别latent表示以缓解数据不平衡",
+    "首个将SAM与MOO框架策略性适配于持续事件检测的工作"
+   ],
+   "benchmarks": [
+    "MAVEN",
+    "ACE 2005"
+   ]
+  }
+ }
 }

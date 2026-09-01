@@ -4,5 +4,10 @@
  "title": "TRUE-UIE-Two-Universal-Relations-Unify-Information-Extractio",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-13 14:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/354a77ab-2182-4415-9779-de69c520bd58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/354a77ab-2182-4415-9779-de69c520bd58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:34:23",
+  "chunks": 1
+ }
 }

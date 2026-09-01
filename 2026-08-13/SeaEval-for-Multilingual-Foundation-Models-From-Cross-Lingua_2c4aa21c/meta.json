@@ -4,5 +4,10 @@
  "title": "SeaEval-for-Multilingual-Foundation-Models-From-Cross-Lingua",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f6cac94-873a-4a93-86aa-d87b4e88904d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f6cac94-873a-4a93-86aa-d87b4e88904d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:46",
+  "chunks": 1
+ }
 }

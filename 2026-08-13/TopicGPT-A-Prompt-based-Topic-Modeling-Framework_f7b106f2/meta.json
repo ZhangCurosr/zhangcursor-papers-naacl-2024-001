@@ -4,5 +4,29 @@
  "title": "TopicGPT-A-Prompt-based-Topic-Modeling-Framework",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:40:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba0b6b65-3800-46c5-91ba-a7fbe92b7b9d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba0b6b65-3800-46c5-91ba-a7fbe92b7b9d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:35:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "topic modeling",
+    "large language models",
+    "prompt-based frameworks",
+    "interpretable NLP",
+    "content analysis"
+   ],
+   "field": "自然语言处理-主题建模",
+   "innovations": [
+    "提出基于LLM提示的双阶段主题生成与分配框架，输出自然语言主题及引用证据",
+    "通过迭代few-shot生成与语义精炼实现高对齐度、可解释主题",
+    "验证开源Mistral-7B在分配任务上的可行性并明确其在生成任务上的局限"
+   ],
+   "benchmarks": [
+    "Wiki (Wikipedia articles)",
+    "Bills (US Congressional bills)"
+   ]
+  }
+ }
 }

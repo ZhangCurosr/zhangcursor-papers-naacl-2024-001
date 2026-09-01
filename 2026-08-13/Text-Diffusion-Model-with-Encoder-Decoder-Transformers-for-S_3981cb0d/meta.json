@@ -4,5 +4,34 @@
  "title": "Text-Diffusion-Model-with-Encoder-Decoder-Transformers-for-S",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-13 14:54:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/422d7c71-62f5-43cb-8ffe-51d04735e1ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/422d7c71-62f5-43cb-8ffe-51d04735e1ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:34:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion model",
+    "sequence-to-sequence generation",
+    "self-conditioning",
+    "adaptive noise schedule",
+    "text generation",
+    "encoder-decoder transformer"
+   ],
+   "field": "文本生成与扩散模型",
+   "innovations": [
+    "提出Encoder-Decoder架构的序列到序列扩散模型SeqDiffuSeq",
+    "引入自条件技术提升生成质量",
+    "设计token级自适应噪声调度平衡去噪难度"
+   ],
+   "benchmarks": [
+    "QQP",
+    "Wiki-Auto",
+    "Quasar-T",
+    "CCD",
+    "IWSLT14",
+    "WMT14"
+   ]
+  }
+ }
 }

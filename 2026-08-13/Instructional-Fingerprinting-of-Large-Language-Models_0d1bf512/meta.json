@@ -4,5 +4,34 @@
  "title": "Instructional-Fingerprinting-of-Large-Language-Models",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a1045d2a-1b4f-4591-a8ab-3ccf6592991f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a1045d2a-1b4f-4591-a8ab-3ccf6592991f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:32:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model fingerprinting",
+    "large language models",
+    "backdoor attacks",
+    "intellectual property protection",
+    "instruction tuning",
+    "model watermarking"
+   ],
+   "field": "大模型安全与版权保护",
+   "innovations": [
+    "首次提出面向生成式LLM的轻量级指令指纹方案INSTRUCTIONALFINGERPRINT，满足六项实用评估标准",
+    "设计F-Adapter参数分解策略，在不损害性能的前提下实现100%指纹持久性",
+    "支持多阶段指纹叠加和API黑盒场景验证"
+   ],
+   "benchmarks": [
+    "SuperGLUE",
+    "Alpaca",
+    "ShareGPT",
+    "Dolly 2",
+    "NI v2",
+    "Alpaca-GPT4"
+   ]
+  }
+ }
 }

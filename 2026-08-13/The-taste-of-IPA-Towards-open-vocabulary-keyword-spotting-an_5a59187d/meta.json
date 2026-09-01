@@ -4,5 +4,32 @@
  "title": "The-taste-of-IPA-Towards-open-vocabulary-keyword-spotting-an",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:54:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f83b0478-8849-43a1-a175-8215b8fd9f28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f83b0478-8849-43a1-a175-8215b8fd9f28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:35:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary keyword spotting",
+    "forced alignment",
+    "multilingual speech processing",
+    "phoneme-based modeling",
+    "contrastive learning",
+    "zero-shot generalization"
+   ],
+   "field": "多语言语音处理",
+   "innovations": [
+    "提出基于IPA的对比学习模型CLAP-IPA实现跨语言开放词汇关键词检测",
+    "设计IPA-ALIGNER通过Forward-Sum损失微调实现零样本跨语言强制对齐"
+   ],
+   "benchmarks": [
+    "LibriPhrase",
+    "FLEURS-IPA",
+    "MSWC-IPA",
+    "DORECO-IPA",
+    "TIMIT"
+   ]
+  }
+ }
 }

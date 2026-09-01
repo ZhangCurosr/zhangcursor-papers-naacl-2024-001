@@ -4,5 +4,34 @@
  "title": "The-taste-of-IPA-Towards-open-vocabulary-keyword-spotting-an",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-13 03:39:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f83b0478-8849-43a1-a175-8215b8fd9f28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f83b0478-8849-43a1-a175-8215b8fd9f28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:35:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言语音处理",
+    "关键词检测",
+    "强制对齐",
+    "国际音标",
+    "对比学习",
+    "低资源语言"
+   ],
+   "field": "多语言语音处理",
+   "innovations": [
+    "提出基于IPA的CLAP-IPA模型实现任意语言零样本开放词汇KWS",
+    "从序列级对比学习中涌现出隐式强制对齐能力",
+    "构建115种语言的IPAPACK语料库并系统验证音素vs文本的跨语言泛化差异"
+   ],
+   "benchmarks": [
+    "Libriphrase",
+    "FLEURS-IPA",
+    "MSWC-IPA",
+    "DoReCo-IPA",
+    "UCLA Phonetic Corpus",
+    "TIMIT"
+   ]
+  }
+ }
 }

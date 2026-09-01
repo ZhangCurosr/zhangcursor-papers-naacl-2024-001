@@ -4,5 +4,30 @@
  "title": "On-Linearizing-Structured-Data-in-Encoder-Decoder-Language-M",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aef6326b-061e-4dc9-b8de-76720a5a5a7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aef6326b-061e-4dc9-b8de-76720a5a5a7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "text-to-SQL",
+    "structured data representation",
+    "encoder-decoder",
+    "probing classifier",
+    "causal tracing",
+    "model interpretability",
+    "linearization"
+   ],
+   "field": "结构化数据表示与自然语言接口",
+   "innovations": [
+    "揭示encoder-decoder处理线性化结构化数据的ego-centric编码机制与内部管线对齐",
+    "发现模态融合的冗余鲁棒性并为模型压缩提供依据",
+    "通过probing+causal tracing系统验证模型学习有意义知识而非虚假相关"
+   ],
+   "benchmarks": [
+    "Spider"
+   ]
+  }
+ }
 }

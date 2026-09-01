@@ -4,5 +4,32 @@
  "title": "On-Large-Language-Models-Hallucination-with-Regard-to-Known",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 05:39:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3490b41e-604c-42a6-b0ed-85b7a5284f20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3490b41e-604c-42a6-b0ed-85b7a5284f20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:32:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉检测",
+    "大语言模型",
+    "可解释性",
+    "知识召回",
+    "推理动态"
+   ],
+   "field": "大语言模型可解释性与幻觉",
+   "innovations": [
+    "提出已知事实幻觉概念并揭示其源于知识检索失败",
+    "发现MLP模块在错误输出中的关键负面作用",
+    "基于输出token动态曲线实现88%准确率的幻觉检测"
+   ],
+   "benchmarks": [
+    "COUNTERFACT",
+    "Llama2-7B-chat",
+    "Llama2-13B-chat",
+    "OPT-6.7B",
+    "Pythia-6.9B"
+   ]
+  }
+ }
 }

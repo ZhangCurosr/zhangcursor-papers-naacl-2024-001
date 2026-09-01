@@ -4,5 +4,33 @@
  "title": "Native-Language-Identification-in-Texts-A-Survey",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6d8505c7-746c-4923-910d-6dfd8c87783e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6d8505c7-746c-4923-910d-6dfd8c87783e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:32:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Native Language Identification",
+    "Second Language Acquisition",
+    "Computational Linguistics",
+    "Text Classification",
+    "Feature Engineering",
+    "Large Language Models",
+    "Linguistic Analysis"
+   ],
+   "field": "多语言计算语言学",
+   "innovations": [
+    "首次对基于文本的母语识别（NLI）任务进行全面系统的综述",
+    "系统性梳理并评述了涵盖十余种语言的 NLI 公开数据集",
+    "揭示了从传统特征工程+机器学习到 LLM 范式的技术演进路径与性能对比"
+   ],
+   "benchmarks": [
+    "TOEFL11",
+    "ICLE",
+    "NLI Shared Tasks (2013, 2017)",
+    "INLI Shared Tasks (2017, 2018)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SELF-GUARD-Empower-the-LLM-to-Safeguard-Itself",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 03:49:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2d23622c-9c96-4f31-9e34-b8f97966c8f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2d23622c-9c96-4f31-9e34-b8f97966c8f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 21:33:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak defense",
+    "LLM safety",
+    "self-guard",
+    "safety training",
+    "safeguards",
+    "over-sensitivity"
+   ],
+   "field": "LLM 安全与对齐",
+   "innovations": [
+    "将安全判定内化为模型自产出的结构化标签（[harmful]/[harmless]），实现输出侧内生安全评估",
+    "两阶段解耦训练（Tag Learning + Behavior Learning）兼顾有害性判别力与标签触发惯性",
+    "标签加密机制抵御 prompt-based 梯度攻击，同时缓解安全训练导致的过敏感问题"
+   ],
+   "benchmarks": [
+    "Typical Jailbreak (HarmfulQ × 10 attacks)",
+    "Wild Jailbreak (13 forbidden scenarios)",
+    "Open LLM Leaderboard (ARC, HellaSwag, MMLU, TruthfulQA)",
+    "XSTest",
+    "Alpaca-AIM"
+   ]
+  }
+ }
 }
