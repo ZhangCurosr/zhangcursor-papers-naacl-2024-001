@@ -4,5 +4,30 @@
  "title": "PatentEval-Understanding-Errors-in-Patent-Generation",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0d8f57f6-9294-4324-a656-4e59707ca7d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0d8f57f6-9294-4324-a656-4e59707ca7d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Patent Generation",
+    "Error Typology",
+    "Legal Text Evaluation",
+    "Large Language Models",
+    "Benchmark",
+    "Patent Eval"
+   ],
+   "field": "法律/专利文本生成与评估",
+   "innovations": [
+    "提出面向专利摘要与权利要求生成的综合错误分类体系",
+    "构建PatentEval人工标注基准并系统对比专业模型与通用LLM的生成质量与偏好",
+    "验证规则检查器与IPC微调语义指标与人类判断的高对齐性"
+   ],
+   "benchmarks": [
+    "PatentEval",
+    "HUPD"
+   ]
+  }
+ }
 }

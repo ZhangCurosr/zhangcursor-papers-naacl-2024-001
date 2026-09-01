@@ -4,5 +4,10 @@
  "title": "Modeling-Empathetic-Alignment-in-Conversation",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/09d2e829-9b05-4940-b4ba-ad8a5f043ea8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/09d2e829-9b05-4940-b4ba-ad8a5f043ea8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:11:05",
+  "chunks": 1
+ }
 }

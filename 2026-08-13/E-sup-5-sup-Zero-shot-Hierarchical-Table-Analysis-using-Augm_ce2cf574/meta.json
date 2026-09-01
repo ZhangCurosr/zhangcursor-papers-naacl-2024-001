@@ -4,5 +4,31 @@
  "title": "E-sup-5-sup-Zero-shot-Hierarchical-Table-Analysis-using-Augm",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 05:39:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/56bf6c71-851f-4464-9088-d23c0d5a6bf9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/56bf6c71-851f-4464-9088-d23c0d5a6bf9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:09:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "层级表格问答",
+    "零样本推理",
+    "代码增强LLM",
+    "工具增强语言模型",
+    "表格压缩",
+    "Hierarchical Table QA"
+   ],
+   "field": "表格问答与结构化数据推理",
+   "innovations": [
+    "提出E⁵五阶段代码增强管道实现零样本层级表格问答，较SOTA微调方法EM提升44.38",
+    "提出F³自适应压缩算法使有限上下文模型可处理大型层级表格",
+    "引入Explain阶段显著提升LLM对多层级表头隐含语义关系的理解能力"
+   ],
+   "benchmarks": [
+    "HiTab",
+    "WikiTableQuestions",
+    "TabFact"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Regularized-Conventions-Equilibrium-Computation-as-a-Model-o",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 03:50:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/164d51fc-86eb-4899-a55e-ce46ba6ace9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/164d51fc-86eb-4899-a55e-ce46ba6ace9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:13:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "regularized equilibrium",
+    "pragmatic reasoning",
+    "signaling game",
+    "piKL-Hedge",
+    "Rational Speech Acts",
+    "implicature",
+    "language modeling"
+   ],
+   "field": "计算语用学",
+   "innovations": [
+    "将语用沟通形式化为正则化均衡搜索问题，同时优化通信成功与默认语义相似度",
+    "利用piKL-Hedge算法计算正则化均衡并提供收敛与KL偏离保证",
+    "在多种语用蕴含与人类判断基准上验证模型，预测结果匹配或超越RSA等递归推理模型"
+   ],
+   "benchmarks": [
+    "Frank (2016) graded human judgments",
+    "Colors in Context (CIC)"
+   ]
+  }
+ }
 }

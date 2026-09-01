@@ -4,5 +4,32 @@
  "title": "Metaphor-Detection-with-Context-Enhancement-and-Curriculum-L",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5738b927-5df1-429a-8d48-f14be9204c1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5738b927-5df1-429a-8d48-f14be9204c1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:10:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "隐喻检测",
+    "课程学习",
+    "选择偏好违反",
+    "语义差异",
+    "数据稀疏",
+    "NLP"
+   ],
+   "field": "自然语言处理中的语义理解与 figurative language processing",
+   "innovations": [
+    "提出IE-SPV与M-MIP双模块强化语境与字面义的内外语义差异表征",
+    "以预训练模型交叉熵训练损失作为自动难度度量构建课程学习调度",
+    "在低资源隐喻检测数据集上显著提升F1并加速收敛"
+   ],
+   "benchmarks": [
+    "VUA ALL",
+    "VUA Verb",
+    "MOH-X",
+    "TroFi"
+   ]
+  }
+ }
 }

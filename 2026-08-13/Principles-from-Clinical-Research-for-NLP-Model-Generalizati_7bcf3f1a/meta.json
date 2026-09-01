@@ -4,5 +4,34 @@
  "title": "Principles-from-Clinical-Research-for-NLP-Model-Generalizati",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/84085916-a71f-4931-a932-9cc802dba3c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/84085916-a71f-4931-a932-9cc802dba3c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型泛化",
+    "内部有效性",
+    "虚假相关",
+    "可解释性",
+    "NLP评估",
+    "因果推断",
+    "代理模型",
+    "匹配评估"
+   ],
+   "field": "NLP模型泛化与评估",
+   "innovations": [
+    "将临床研究内部/外部有效性框架系统引入NLP泛化分析，区分虚假相关导致的内部失效与OOD导致的外部失效",
+    "提出基于匹配对照的因果评估方法，通过语义保持扰动配对检验模型是否依赖捷径特征",
+    "用NB-T代理模型+Cohen's Kappa量化分析证明BioBERT在PTM关系抽取任务中严重依赖实体距离等表面模式"
+   ],
+   "benchmarks": [
+    "PTM-PPI",
+    "ChemProt",
+    "SNLI",
+    "GLUE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Multimodal-Multi-loss-Fusion-Network-for-Sentiment-Analysis",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 05:40:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/196e85db-8774-4e83-9b17-32289744890c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/196e85db-8774-4e83-9b17-32289744890c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:11:16",
+  "chunks": 1
+ }
 }

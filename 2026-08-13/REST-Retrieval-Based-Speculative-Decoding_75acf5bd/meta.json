@@ -4,5 +4,30 @@
  "title": "REST-Retrieval-Based-Speculative-Decoding",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:39:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/48a302da-5eff-4910-abc7-daa1e120185d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/48a302da-5eff-4910-abc7-daa1e120185d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:13:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "retrieval-based generation",
+    "language model acceleration",
+    "plug-and-play inference",
+    "code generation",
+    "general domain"
+   ],
+   "field": "大语言模型推理加速",
+   "innovations": [
+    "用非参数检索数据仓库替代草稿模型实现无训练加速",
+    "基于Trie的高频前缀选择策略提升草稿质量",
+    "树注意力机制优化多草稿并行验证的计算效率"
+   ],
+   "benchmarks": [
+    "HumanEval",
+    "MT-Bench"
+   ]
+  }
+ }
 }

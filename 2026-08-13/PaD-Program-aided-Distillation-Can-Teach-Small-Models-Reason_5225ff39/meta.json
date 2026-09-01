@@ -4,5 +4,35 @@
  "title": "PaD-Program-aided-Distillation-Can-Teach-Small-Models-Reason",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/be9e0857-5308-47a1-857c-7620987879ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/be9e0857-5308-47a1-857c-7620987879ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Program-aided Distillation",
+    "Knowledge Distillation",
+    "Chain-of-Thought",
+    "Small Language Models",
+    "Self-Refinement",
+    "Step-wise Verification"
+   ],
+   "field": "大模型知识蒸馏与小模型推理能力增强",
+   "innovations": [
+    "提出PaD框架，用可执行Python程序替代CoT进行小模型推理蒸馏，支持自动化数据清洗",
+    "设计基于AST错误注入的自修正（Self-Refinement）多任务学习机制",
+    "将语义对齐评分融入步级束搜索（Step-by-Step Verification），提升生成推理链的忠实度"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "ASDiv",
+    "SVAMP",
+    "MultiArith",
+    "Coin Flip",
+    "Last Letter Concatenation",
+    "Big Bench Hard"
+   ]
+  }
+ }
 }

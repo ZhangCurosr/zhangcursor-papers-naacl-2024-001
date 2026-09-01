@@ -4,5 +4,32 @@
  "title": "Query-Efficient-Textual-Adversarial-Example-Generation-for-B",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5ae67b20-c0ec-44cf-9765-29d1dc392d77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5ae67b20-c0ec-44cf-9765-29d1dc392d77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:13:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Textual Adversarial Attack",
+    "Black-Box Attack",
+    "Query Efficiency",
+    "Universal Attack",
+    "Adversarial Robustness",
+    "NLP Security",
+    "ABP"
+   ],
+   "field": "自然语言处理安全与对抗鲁棒性",
+   "innovations": [
+    "提出ABP指标融合替换频率与模型影响度以替代在线查询估计词重要性",
+    "设计零查询与少查询的ABP_free与ABP_guide策略实现10~500倍查询效率提升",
+    "首次提出NLP领域的集成攻击方法显著提升跨模型迁移与跨域泛化能力"
+   ],
+   "benchmarks": [
+    "IMDB",
+    "SST",
+    "MR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "P-sup-3-sup-SUM-Preserving-Author-s-Perspective-in-News-Summ",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2d8b319-15a6-426d-ae07-5a4b1831afc6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d2d8b319-15a6-426d-ae07-5a4b1831afc6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:11:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "新闻摘要",
+    "观点保留",
+    "扩散语言模型",
+    "可控文本生成",
+    "政治立场",
+    "推理时控制"
+   ],
+   "field": "可控文本生成与摘要",
+   "innovations": [
+    "提出P³SUM框架，通过冻结分类器梯度在推理时引导扩散模型生成保立场摘要",
+    "揭示现有摘要模型与基准数据在政治立场保留上的系统性缺失",
+    "设计模块化控制范式，实现分类器与语言模型解耦的可插拔观点引导"
+   ],
+   "benchmarks": [
+    "CNN/DM",
+    "XSUM",
+    "POLITICS"
+   ]
+  }
+ }
 }

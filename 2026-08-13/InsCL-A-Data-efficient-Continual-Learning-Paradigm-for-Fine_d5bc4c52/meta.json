@@ -4,5 +4,29 @@
  "title": "InsCL-A-Data-efficient-Continual-Learning-Paradigm-for-Fine",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5b099da-ee22-4255-8f52-285e8e49b268.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e5b099da-ee22-4255-8f52-285e8e49b268.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:10:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Continual Learning",
+    "Instruction Tuning",
+    "Large Language Models",
+    "Catastrophic Forgetting",
+    "Replay-based Methods",
+    "Wasserstein Distance"
+   ],
+   "field": "大语言模型持续学习",
+   "innovations": [
+    "提出基于指令Wasserstein距离的动态任务相似度回放机制",
+    "设计InsInfo指标量化指令复杂多样性以引导高质量数据采样",
+    "为LLM指令微调提供数据高效的持续学习范式并深入分析遗忘现象"
+   ],
+   "benchmarks": [
+    "SuperNI"
+   ]
+  }
+ }
 }

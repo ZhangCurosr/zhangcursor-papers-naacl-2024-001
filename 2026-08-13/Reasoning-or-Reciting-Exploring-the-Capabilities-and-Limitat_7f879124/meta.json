@@ -4,5 +4,31 @@
  "title": "Reasoning-or-Reciting-Exploring-the-Capabilities-and-Limitat",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 03:49:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e271b721-32d3-4b15-bd43-4a277c8377dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e271b721-32d3-4b15-bd43-4a277c8377dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:13:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语言模型评估",
+    "反事实推理",
+    "任务泛化",
+    "Chain-of-Thought",
+    "LLM能力"
+   ],
+   "field": "语言模型评估与解释",
+   "innovations": [
+    "提出基于反事实任务变体的LM任务级泛化评估框架",
+    "设计11类跨领域反事实任务及CCC理解检查机制",
+    "揭示默认-反事实性能鸿沟的普遍性及与默认性能的强相关性"
+   ],
+   "benchmarks": [
+    "HumanEval",
+    "FOLIO",
+    "Penn Treebank",
+    "SET Game"
+   ]
+  }
+ }
 }

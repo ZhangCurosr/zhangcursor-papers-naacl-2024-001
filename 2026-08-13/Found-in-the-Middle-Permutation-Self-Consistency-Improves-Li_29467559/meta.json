@@ -4,5 +4,33 @@
  "title": "Found-in-the-Middle-Permutation-Self-Consistency-Improves-Li",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f0cd6d2-c8c7-4f63-a9dd-53e2b35c4bfc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f0cd6d2-c8c7-4f63-a9dd-53e2b35c4bfc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:09:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "listwise ranking",
+    "positional bias",
+    "self-consistency",
+    "Kemeny ranking",
+    "retrieval",
+    "LLM decoding"
+   ],
+   "field": "信息检索与大语言模型排序",
+   "innovations": [
+    "置换自洽性：通过随机打乱输入顺序采样多组排名并用Kemeny聚合消除位置偏差",
+    "理论证明Kemeny聚合在满足一致子集条件下收敛到真实排名",
+    "系统刻画GPT-3.5/GPT-4在passage reranking中的位置偏置模式（反转率热力图）"
+   ],
+   "benchmarks": [
+    "MathSort",
+    "WordSort",
+    "GSM8KSort",
+    "TREC-DL19",
+    "TREC-DL20"
+   ]
+  }
+ }
 }

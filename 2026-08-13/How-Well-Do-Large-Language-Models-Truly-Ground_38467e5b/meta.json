@@ -4,5 +4,10 @@
  "title": "How-Well-Do-Large-Language-Models-Truly-Ground",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7bb6d339-3209-42d7-8c7c-fc1ad8a74a8f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7bb6d339-3209-42d7-8c7c-fc1ad8a74a8f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:10:02",
+  "chunks": 1
+ }
 }

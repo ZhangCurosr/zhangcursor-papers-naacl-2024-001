@@ -4,5 +4,33 @@
  "title": "Program-Aided-Reasoners-Better-Know-What-They-Know",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dee4dc39-2f4a-49f8-abff-aacee294d35b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dee4dc39-2f4a-49f8-abff-aacee294d35b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "校准",
+    "程序辅助推理",
+    "自一致性",
+    "链式思维",
+    "温度缩放",
+    "大语言模型"
+   ],
+   "field": "大语言模型推理与可靠性",
+   "innovations": [
+    "首次系统评估PAL与COT在推理任务中的校准性差异",
+    "发现PAL在OpenAI模型上校准误差降低约50%",
+    "揭示生成多样性与校准性的关联并验证温度缩放优化策略"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "GSM8K Hard",
+    "Object-Counting",
+    "Repeat-Copy",
+    "Date-Understanding"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Promptly-Predicting-Structures-The-Return-of-Inference",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f67bf45-e714-4099-b82f-69e66e558096.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f67bf45-e714-4099-b82f-69e66e558096.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured prediction",
+    "prompt-based methods",
+    "zero-shot",
+    "semantic role labeling",
+    "coreference resolution",
+    "inference"
+   ],
+   "field": "结构化自然语言处理",
+   "innovations": [
+    "提出将LLM作为评分器结合传统组合推理的统一框架实现零样本结构化预测",
+    "SRL任务中引入图最短路径推理消除span重叠约束",
+    "共指解析中利用ILP传递性约束保证全局一致性"
+   ],
+   "benchmarks": [
+    "QA-SRL wiki",
+    "QA-SRL 2.0",
+    "ECB+",
+    "OntoNotes 5.0",
+    "GENIA"
+   ]
+  }
+ }
 }

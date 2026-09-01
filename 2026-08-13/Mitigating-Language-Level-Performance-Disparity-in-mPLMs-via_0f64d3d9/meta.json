@@ -4,5 +4,31 @@
  "title": "Mitigating-Language-Level-Performance-Disparity-in-mPLMs-via",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed435621-59ed-4e9f-b7d0-df6055ce46b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed435621-59ed-4e9f-b7d0-df6055ce46b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:10:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言预训练模型",
+    "跨语言知识迁移",
+    "自蒸馏",
+    "语言公平性",
+    "性能差距缓解"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "基于置信度的动态教师语言选择机制，无需预设高资源语言",
+    "跨语言自蒸馏框架，仅用500-shot无标注数据即可缩小mPLM内部语言性能差距",
+    "揭示教师语言自身也在蒸馏中获益的双向知识迁移现象"
+   ],
+   "benchmarks": [
+    "XNLI",
+    "PAWS-X",
+    "XCOPA",
+    "GeoMLAMA"
+   ]
+  }
+ }
 }

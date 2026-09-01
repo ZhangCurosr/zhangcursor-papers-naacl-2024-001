@@ -4,5 +4,33 @@
  "title": "Metacognitive-Prompting-Improves-Understanding-in-Large-Lang",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 05:40:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3e0d3117-0efe-4aea-bae0-ce86c4a39b6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3e0d3117-0efe-4aea-bae0-ce86c4a39b6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:10:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "metacognitive prompting",
+    "large language models",
+    "natural language understanding",
+    "prompt engineering",
+    "chain-of-thought",
+    "self-reflection",
+    "confidence calibration"
+   ],
+   "field": "大语言模型提示方法与自然语言理解",
+   "innovations": [
+    "提出受人类元认知启发的五阶段Metacognitive Prompting，引导LLM进行批判性自我评估以增强NLU能力",
+    "系统性验证MP在通用与领域特定NLU任务上一致优于CoT及其变体",
+    "通过误差与置信度分析揭示MP特有的'过度思考'和'过度校正'错误模式"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "BLUE",
+    "LexGLUE"
+   ]
+  }
+ }
 }

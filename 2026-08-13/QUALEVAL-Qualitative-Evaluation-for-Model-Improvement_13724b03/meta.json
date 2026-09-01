@@ -4,5 +4,32 @@
  "title": "QUALEVAL-Qualitative-Evaluation-for-Model-Improvement",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7bcb2263-56e8-4ad4-a078-d42073ddbfc3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7bcb2263-56e8-4ad4-a078-d42073ddbfc3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "定性评估",
+    "模型改进",
+    "线性规划",
+    "技能对齐",
+    "数据增强",
+    "大语言模型"
+   ],
+   "field": "模型评估与诊断",
+   "innovations": [
+    "提出首个面向LLM的自动化定性评估框架QUALEVAL",
+    "设计灵活的线性规划求解器实现保真属性分配",
+    "引入技能对齐度量量化模型推理路径与参考答案的一致性"
+   ],
+   "benchmarks": [
+    "MBPP",
+    "Dialog-Sum",
+    "MMLU (Clinical Knowledge)",
+    "MedMCQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Rethinking-Tabular-Data-Understanding-with-Large-Language-Mo",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed1ba713-21b5-4683-8d26-be313be779ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ed1ba713-21b5-4683-8d26-be313be779ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:13:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "表格理解",
+    "大语言模型",
+    "结构鲁棒性",
+    "符号推理",
+    "自洽聚合",
+    "Table QA"
+   ],
+   "field": "表格推理与结构化数据理解",
+   "innovations": [
+    "提出NORM表格结构规范化方法提升LLM对结构扰动的鲁棒性",
+    "混合自洽机制结合文本与符号推理达到WTQ上73.6% SOTA"
+   ],
+   "benchmarks": [
+    "WIKITABLEQUESTIONS",
+    "TabFact"
+   ]
+  }
+ }
 }

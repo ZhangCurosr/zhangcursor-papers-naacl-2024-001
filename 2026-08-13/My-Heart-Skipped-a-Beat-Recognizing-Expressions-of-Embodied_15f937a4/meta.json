@@ -4,5 +4,29 @@
  "title": "My-Heart-Skipped-a-Beat-Recognizing-Expressions-of-Embodied",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 05:40:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/32b581b7-585e-4324-9cca-859f8d82c253.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/32b581b7-585e-4324-9cca-859f8d82c253.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:11:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "具身情感",
+    "隐性情感识别",
+    "弱标注",
+    "LLM提示",
+    "数据集构建",
+    "情感分类"
+   ],
+   "field": "情感分析与理解",
+   "innovations": [
+    "提出首个具身情感识别任务及基准数据集CHEER",
+    "开发基于依存模式与LLM提示的双轨弱标注方法",
+    "验证弱标注数据可训练接近全监督效果的分类器"
+   ],
+   "benchmarks": [
+    "CHEER"
+   ]
+  }
+ }
 }

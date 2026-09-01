@@ -4,5 +4,32 @@
  "title": "POLYIE-A-Dataset-of-Information-Extraction-from-Polymer-Mate",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f8086405-7424-4aa2-8a93-b104b11ed2a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f8086405-7424-4aa2-8a93-b104b11ed2a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:11:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Scientific Information Extraction",
+    "Polymer Materials",
+    "Named Entity Recognition",
+    "N-ary Relation Extraction",
+    "Materials Science NLP",
+    "Domain-specific Pretrained Models"
+   ],
+   "field": "材料科学自然语言处理",
+   "innovations": [
+    "首个聚合物材料科学文献信息提取基准数据集POLYIE，涵盖变长N元关系",
+    "提出二元关系分解后聚合的N元关系标注策略，支持跨句关系提取",
+    "系统评估领域特定预训练模型在聚合物信息提取中的优势及LLM的few-shot局限"
+   ],
+   "benchmarks": [
+    "POLYIE",
+    "SciREX",
+    "drug-combo",
+    "SOFC-exp"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Quantum-inspired-Language-Model-with-Lindblad-Master-Equatio",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14591f18-ad7b-4d55-b94e-9a486671a9f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14591f18-ad7b-4d55-b94e-9a486671a9f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quantum-inspired language model",
+    "Lindblad master equation",
+    "interference measurement",
+    "sentiment analysis",
+    "complex-valued neural network"
+   ],
+   "field": "量子启发自然语言处理",
+   "innovations": [
+    "首次将Lindblad主方程引入NLP情感分析以建模开放系统演化",
+    "用干涉测量替代投影测量以提升精度并降低计算开销"
+   ],
+   "benchmarks": [
+    "CR",
+    "MPQA",
+    "MR",
+    "SUBJ",
+    "SST-2",
+    "SST-5"
+   ]
+  }
+ }
 }

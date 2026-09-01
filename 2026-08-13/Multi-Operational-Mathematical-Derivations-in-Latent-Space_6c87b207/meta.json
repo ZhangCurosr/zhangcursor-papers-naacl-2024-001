@@ -4,5 +4,32 @@
  "title": "Multi-Operational-Mathematical-Derivations-in-Latent-Space",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:39:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0cb8b8fc-6147-4ff4-91f6-54d939be1644.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0cb8b8fc-6147-4ff4-91f6-54d939be1644.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:11:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent space reasoning",
+    "mathematical derivation",
+    "multi-operational representation",
+    "symbolic engine",
+    "translational paradigm",
+    "graph neural network",
+    "length generalisation"
+   ],
+   "field": "符号数学推理 / 潜空间表示学习",
+   "innovations": [
+    "提出投影与平移两种多运算潜空间表征范式，将算子显式建模为几何变换",
+    "揭示跨/单运算推理的表征分离规律，验证平移范式在优化精细度上的优势",
+    "构建1.7M步多运算合成数据集并系统评估多架构在多步传播与OOD泛化上的表现"
+   ],
+   "benchmarks": [
+    "Cross-operational Inference",
+    "Intra-operational Inference",
+    "Length Generalisation"
+   ]
+  }
+ }
 }

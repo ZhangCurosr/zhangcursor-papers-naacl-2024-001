@@ -4,5 +4,30 @@
  "title": "R-Spin-Efficient-Speaker-and-Noise-invariant-Representation",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a628ab4-9ce7-4246-9c0f-fc808f9ded9d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a628ab4-9ce7-4246-9c0f-fc808f9ded9d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:12:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-supervised learning",
+    "speech representation",
+    "speaker invariance",
+    "noise robustness",
+    "domain-specific adaptation",
+    "acoustic units"
+   ],
+   "field": "语音自监督表征学习",
+   "innovations": [
+    "引入辅助伪标签预测损失实现全参数微调且防止编码崩塌",
+    "将声学片段(BPE)作为伪标签目标提升内容表征质量",
+    "在12倍低计算成本下实现说话人和噪声双重不变性的域自适应自监督"
+   ],
+   "benchmarks": [
+    "LibriSpeech test-other Phoneme Recognition",
+    "CHiME-4 ASR"
+   ]
+  }
+ }
 }

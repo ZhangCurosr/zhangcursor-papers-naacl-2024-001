@@ -4,5 +4,30 @@
  "title": "Reinforced-Multiple-Instance-Selection-for-Speaker-Attribute",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 03:50:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41302a35-0025-41e2-b2c1-47e7c8f3ce76.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/41302a35-0025-41e2-b2c1-47e7c8f3ce76.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:13:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multiple Instance Learning",
+    "Speaker Attribute Prediction",
+    "Reinforcement Learning",
+    "Instance Selection",
+    "Text Classification"
+   ],
+   "field": "说话人属性预测与多示例学习",
+   "innovations": [
+    "提出 RL-MIL 框架，用强化学习策略网络替代随机/固定采样，自动选择与目标属性相关的实例子集",
+    "将说话人属性预测系统性地形式化为 MIL 问题，并在多个真实与合成数据集上验证",
+    "设计以验证集 F1 为 reward 的策略损失与正则化损失，在信号稀疏场景下显著提升性能"
+   ],
+   "benchmarks": [
+    "Congressional Speech (Age/Gender/Political Ideology)",
+    "Facebook + MFQ Data (Moral Foundations)",
+    "Civil Comments Synthetic Toxic-5/Toxic-10"
+   ]
+  }
+ }
 }

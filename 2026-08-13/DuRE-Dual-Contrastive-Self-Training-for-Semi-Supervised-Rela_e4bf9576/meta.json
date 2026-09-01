@@ -4,5 +4,30 @@
  "title": "DuRE-Dual-Contrastive-Self-Training-for-Semi-Supervised-Rela",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5860868a-75cf-4d8e-91c2-95730acc8fda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5860868a-75cf-4d8e-91c2-95730acc8fda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:09:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文档级关系抽取",
+    "半监督学习",
+    "自训练",
+    "长尾关系",
+    "对比学习",
+    "可控文本生成"
+   ],
+   "field": "信息抽取与半监督学习",
+   "innovations": [
+    "双过程自训练框架联合优化分类与生成",
+    "利用分类器置信度构建正负样本对施加对比损失提升生成质量",
+    "自适应采样与温度调节策略缓解长尾关系性能瓶颈"
+   ],
+   "benchmarks": [
+    "Re-DocRED",
+    "CDG"
+   ]
+  }
+ }
 }

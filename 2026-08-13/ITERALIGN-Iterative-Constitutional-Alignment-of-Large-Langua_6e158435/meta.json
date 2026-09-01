@@ -4,5 +4,31 @@
  "title": "ITERALIGN-Iterative-Constitutional-Alignment-of-Large-Langua",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:39:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30dd8191-c68f-40db-8e7f-558e861ecd8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30dd8191-c68f-40db-8e7f-558e861ecd8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:10:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM alignment",
+    "Constitutional AI",
+    "Red Teaming",
+    "Self-alignment",
+    "Data-driven constitution",
+    "SFT",
+    "Harmlessness"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "数据驱动的迭代宪法发现与自对齐框架，无需人工预定义宪法",
+    "红队测试+强LLM自动提取针对性宪法原则，经自反思与SFT闭环迭代",
+    "在7B/13B多模型上实现最高13.5% harmlessness提升，超越RLHF基线"
+   ],
+   "benchmarks": [
+    "TruthfulQA",
+    "BIG-bench HHH Eval"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "IPED-An-Implicit-Perspective-for-Relational-Triple-Extractio",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b5af9f50-ee56-440f-a476-52465e53c7bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b5af9f50-ee56-440f-a476-52465e53c7bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:10:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "关系三元组抽取",
+    "扩散模型",
+    "表填充方法",
+    "隐式标注",
+    "联合抽取"
+   ],
+   "field": "信息抽取与知识图谱",
+   "innovations": [
+    "提出块覆盖隐式填表策略避免负样本冗余",
+    "设计三维空间块去噪扩散模型Blk-DDM",
+    "并行边界发射解码策略PBES实现高效三元组提取"
+   ],
+   "benchmarks": [
+    "NYT",
+    "WebNLG"
+   ]
+  }
+ }
 }
