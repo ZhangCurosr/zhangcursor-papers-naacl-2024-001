@@ -4,5 +4,32 @@
  "title": "Curated-Datasets-and-Neural-Models-for-Machine-Translation-o",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0da1470f-e4db-41b8-9657-593bb78a2d22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0da1470f-e4db-41b8-9657-593bb78a2d22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:25:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Machine Translation",
+    "Mayan Languages",
+    "Low-Resource MT",
+    "Dialectometry",
+    "Parallel Corpora",
+    "Multilingual NMT",
+    "Indigenous Languages"
+   ],
+   "field": "低资源机器翻译",
+   "innovations": [
+    "构建并发布MayanV平行语料库，首次系统性地收录玛雅语日常非正式变体",
+    "引入方言计量学分析量化玛雅语社区西班牙语变体与标准书面西班牙语的差异",
+    "证明语料适切性（日常非正式语域）比语料规模对低资源NMT性能影响更大"
+   ],
+   "benchmarks": [
+    "MayanV test sets",
+    "BLEU",
+    "chrF2"
+   ]
+  }
+ }
 }

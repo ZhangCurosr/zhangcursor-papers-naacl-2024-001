@@ -4,5 +4,34 @@
  "title": "LLM-based-Medical-Assistant-Personalization-with-Short-and-L",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f3634b5-e48b-42f8-94f2-fbc3a8e35a2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f3634b5-e48b-42f8-94f2-fbc3a8e35a2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:28:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化LLM",
+    "医疗助手",
+    "记忆增强生成",
+    "参数高效微调",
+    "LoRA",
+    "DPeM",
+    "长短期记忆"
+   ],
+   "field": "个性化大语言模型与记忆增强",
+   "innovations": [
+    "提出受神经科学双过程启发的DPeM三重记忆机制（工作记忆/STM/LTM），相比字典式记忆提升约7%",
+    "结合DPeM与LoRA的MaLP统一框架，实现低成本高效果的个性化医疗助手",
+    "提出基于自聊模拟的个性化医疗对话数据集构建方法"
+   ],
+   "benchmarks": [
+    "HealthCareMagic-100k",
+    "iCliniq",
+    "ROUGE-1/ROUGE-L",
+    "Preference Classification Accuracy",
+    "Response Generation Win Rate"
+   ]
+  }
+ }
 }

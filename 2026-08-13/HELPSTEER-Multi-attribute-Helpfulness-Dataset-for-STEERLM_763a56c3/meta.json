@@ -4,5 +4,29 @@
  "title": "HELPSTEER-Multi-attribute-Helpfulness-Dataset-for-STEERLM",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 05:40:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce5af993-321c-48df-8f9e-96a817b85a26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce5af993-321c-48df-8f9e-96a817b85a26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:26:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "帮助性偏好数据集",
+    "STEERLM",
+    "多属性对齐",
+    "RLHF",
+    "Open Assistant"
+   ],
+   "field": "大语言模型对齐",
+   "innovations": [
+    "提出HELPSTEER多属性帮助性数据集，标注正确性/连贯性/复杂度/冗长度四个维度",
+    "改进STEERLM方法，使用回归头替代LLM进行属性预测",
+    "证明细化属性标注可有效抑制虚假相关并提升事实准确性"
+   ],
+   "benchmarks": [
+    "MT Bench",
+    "TruthfulQA MC2"
+   ]
+  }
+ }
 }

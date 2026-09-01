@@ -4,5 +4,29 @@
  "title": "Large-Language-Models-Help-Humans-Verify-Truthfulness-Except",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:40:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1bd608b5-caae-4c48-8986-6c2b1009e5ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1bd608b5-caae-4c48-8986-6c2b1009e5ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:28:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事实核查",
+    "大语言模型",
+    "人机协作",
+    "过度依赖",
+    "解释生成",
+    "检索增强"
+   ],
+   "field": "大语言模型应用与评估",
+   "innovations": [
+    "系统对比LLM解释与搜索引擎检索在人类事实核查中的效能",
+    "揭示并量化LLM“说服性错误”导致的人类过度依赖风险",
+    "验证对比解释可缓解过度依赖但无法超越检索基准"
+   ],
+   "benchmarks": [
+    "FoolMeTwice"
+   ]
+  }
+ }
 }

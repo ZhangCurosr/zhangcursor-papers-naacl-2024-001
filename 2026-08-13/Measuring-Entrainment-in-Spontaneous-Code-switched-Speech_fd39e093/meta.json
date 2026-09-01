@@ -4,5 +4,29 @@
  "title": "Measuring-Entrainment-in-Spontaneous-Code-switched-Speech",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9c4008da-bc07-451c-8ade-724e261bef14.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9c4008da-bc07-451c-8ade-724e261bef14.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:29:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "entrainment",
+    "code-switching",
+    "acoustic-prosodic features",
+    "spontaneous speech",
+    "multilingual dialogue",
+    "Bangor Miami corpus"
+   ],
+   "field": "多语对话建模与自然语言处理",
+   "innovations": [
+    "首次在人类自发双语（西英）口语对话中系统性测量词汇、声学-韵律与CSW策略三维度趋同",
+    "发现alternational CSW在conversation-level呈现显著proximity，填补口语CSW趋同研究的空白",
+    "发布经过CMGAN去噪并新增CSW策略标注的Bangor Miami语料库开源版本"
+   ],
+   "benchmarks": [
+    "Bangor Miami CSW Corpus (cleaned & re-annotated version)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "LLMs-Are-Few-Shot-In-Context-Low-Resource-Language-Learners",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/075f485b-b159-496c-bc95-04d63824e2ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/075f485b-b159-496c-bc95-04d63824e2ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:27:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Cross-Lingual ICL",
+    "Low-Resource Languages",
+    "Query Alignment",
+    "Label Alignment",
+    "Multilingual LLMs",
+    "XGLM",
+    "BLOOM"
+   ],
+   "field": "低资源多语言自然语言处理",
+   "innovations": [
+    "发现上下文中标签对齐在低资源语言上普遍有害，与已有结论相反",
+    "提出查询对齐方法，通过平行句子翻译对齐输入分布，优于标签对齐",
+    "系统验证跨语言 ICL 不同策略在 32 种语言（25 低资源+7 中高资源）上的有效性"
+   ],
+   "benchmarks": [
+    "NusaTranslation",
+    "MasakhaNews",
+    "AmericasNLI",
+    "TweetSentimentMultilingual"
+   ]
+  }
+ }
 }

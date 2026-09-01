@@ -4,5 +4,31 @@
  "title": "From-Language-Modeling-to-Instruction-Following-Understandin",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd65ebe6-6af9-4661-a3b2-b323fd1a6c0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd65ebe6-6af9-4661-a3b2-b323fd1a6c0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:26:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction tuning",
+    "LLM interpretability",
+    "self-attention",
+    "feed-forward network",
+    "gradient attribution",
+    "concept-level explanation"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出适配自回归LLM的梯度归因方法并量化prompt重要性密度",
+    "基于局部共现约束的自注意力词对提取方法缓解多义性问题",
+    "通过PCA主成分分解实现FFN的概念级知识解释"
+   ],
+   "benchmarks": [
+    "Self-Instruct",
+    "LIMA",
+    "MT-Bench"
+   ]
+  }
+ }
 }

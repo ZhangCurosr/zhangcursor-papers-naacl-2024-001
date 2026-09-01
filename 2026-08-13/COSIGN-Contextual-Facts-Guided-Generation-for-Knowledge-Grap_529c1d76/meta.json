@@ -4,5 +4,33 @@
  "title": "COSIGN-Contextual-Facts-Guided-Generation-for-Knowledge-Grap",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:40:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/294706eb-6042-4a16-ad56-500bc868aa86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/294706eb-6042-4a16-ad56-500bc868aa86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:24:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱补全",
+    "生成式模型",
+    "上下文事实组织",
+    "知识蒸馏",
+    "时序知识图谱",
+    "少样本推理"
+   ],
+   "field": "知识图谱推理与补全",
+   "innovations": [
+    "首次将LLM组织能力通过知识蒸馏迁移至小模型用于KGC",
+    "基于正样本集置信度优势的上下文事实收集器",
+    "反向生成+答案召回评估的上下文事实整理机制"
+   ],
+   "benchmarks": [
+    "WN18RR",
+    "FB15K-237",
+    "FB15K-237N",
+    "ICEWS14",
+    "NELL-One"
+   ]
+  }
+ }
 }

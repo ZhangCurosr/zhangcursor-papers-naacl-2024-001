@@ -4,5 +4,36 @@
  "title": "From-Shortcuts-to-Triggers-Backdoor-Defense-with-Denoised-Po",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5b70dbf6-a00d-4b97-9950-a3a3342ac100.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5b70dbf6-a00d-4b97-9950-a3a3342ac100.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:25:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor defense",
+    "product-of-experts",
+    "denoising",
+    "NLP security",
+    "shortcut mitigation",
+    "poisoning defense",
+    "trigger detection"
+   ],
+   "field": "自然语言处理安全与鲁棒性",
+   "innovations": [
+    "提出DPoE框架，通过PoE集成浅层触发器模型与主模型学习无捷径残差，统一防御多种触发器类型",
+    "结合去噪技术缓解后门攻击的标签噪声，实现防御不牺牲干净准确率",
+    "设计伪开发集构建策略，在无干净数据时自动进行超参数选择"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "OffensEval",
+    "AG News",
+    "BadNet",
+    "InsertSent",
+    "Syntactic Attack",
+    "Multi-Type Attack"
+   ]
+  }
+ }
 }

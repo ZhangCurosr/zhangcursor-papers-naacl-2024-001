@@ -4,5 +4,32 @@
  "title": "LoRETTA-Low-Rank-Economic-Tensor-Train-Adaptation-for-Ultra",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a8679a1e-dad5-4d5d-bebf-15e63655cb2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a8679a1e-dad5-4d5d-bebf-15e63655cb2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:28:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Parameter-Efficient Fine-Tuning",
+    "Tensor-Train Decomposition",
+    "Low-Rank Adaptation",
+    "Large Language Models",
+    "Multi-Task Learning",
+    "Overfitting Mitigation"
+   ],
+   "field": "大语言模型高效微调",
+   "innovations": [
+    "用Tensor-Train多阶张量因子链替代LoRA二阶低秩矩阵，实现最多100倍参数压缩",
+    "提出adp（张量化适配器）和rep（张量化重参数化）两种变体，兼顾性能与极致轻量",
+    "在超低参数下显著缓解过拟合与多任务灾难性遗忘，并提供即插即用开源库"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "SQuAD",
+    "DROP"
+   ]
+  }
+ }
 }

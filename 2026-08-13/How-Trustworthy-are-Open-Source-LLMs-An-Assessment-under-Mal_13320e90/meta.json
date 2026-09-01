@@ -4,5 +4,33 @@
  "title": "How-Trustworthy-are-Open-Source-LLMs-An-Assessment-under-Mal",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4a535f85-da90-476d-9fe6-16bdc4747c51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4a535f85-da90-476d-9fe6-16bdc4747c51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:26:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM可信度",
+    "对抗攻击",
+    "上下文学习",
+    "开源大模型",
+    "安全对齐",
+    " adversarial demonstration"
+   ],
+   "field": "大语言模型安全与可信度评估",
+   "innovations": [
+    "提出advCoU：将ICL范式适配到多维权重攻击场景，通过恶意演示+误导性internal thoughts诱导有害输出",
+    "发现开源LLM规模与脆弱性正相关：越大模型在对抗演示下越易被攻击",
+    "揭示指令微调与安全对齐的差异化效应：仅强调指令遵循反而削弱安全性，RLHF安全对齐有效"
+   ],
+   "benchmarks": [
+    "REALTOXICITYPROMPTS",
+    "HALUEVAL",
+    "SNLI-CAD",
+    "ADULT",
+    "ETHICS"
+   ]
+  }
+ }
 }

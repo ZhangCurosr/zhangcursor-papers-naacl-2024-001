@@ -4,5 +4,30 @@
  "title": "Create-Don-t-Repeat-A-Paradigm-Shift-in-Multi-Label-Augmenta",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8968f9f1-b7bc-4486-8ec1-e5c2a3407d81.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8968f9f1-b7bc-4486-8ec1-e5c2a3407d81.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:24:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多标签文本分类",
+    "数据增强",
+    "尾部驱动采样",
+    "条件生成",
+    "长尾问题"
+   ],
+   "field": "极端多标签文本分类",
+   "innovations": [
+    "提出Label Creative Generation范式，首次在多标签增强中创造新颖标签组合",
+    "设计TDCA方法，结合M-H尾部驱动采样与对比条件生成",
+    "将Plackett-Luce模型与InfoNCE结合用于标签匹配损失"
+   ],
+   "benchmarks": [
+    "EurLex-4K",
+    "MeSH-12K",
+    "Wiki10-30K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "KDMCSE-Knowledge-Distillation-Multimodal-Sentence-Embeddings",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/53cf16e3-0aee-4eba-8633-e1516e022554.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/53cf16e3-0aee-4eba-8633-e1516e022554.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:27:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态句子嵌入",
+    "知识蒸馏",
+    "对比学习",
+    "角边际损失",
+    "负样本过滤",
+    "语义文本相似度"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "基于CLIP软标签的Threshold Filtering噪声负样本过滤机制",
+    "自适应角边际对比损失AdapACSE以区分不同语义差异的负样本对",
+    "冻结多模态教师与文本学生联合蒸馏的双模态对比学习框架"
+   ],
+   "benchmarks": [
+    "STS12-16",
+    "STS-Benchmark",
+    "SICK-Relatedness"
+   ]
+  }
+ }
 }

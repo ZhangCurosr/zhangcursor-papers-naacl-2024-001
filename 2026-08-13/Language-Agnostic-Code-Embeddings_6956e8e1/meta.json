@@ -4,5 +4,30 @@
  "title": "Language-Agnostic-Code-Embeddings",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9bd9ad59-853b-49cf-b9ec-dc11b971db31.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9bd9ad59-853b-49cf-b9ec-dc11b971db31.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:27:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code embeddings",
+    "cross-lingual representation",
+    "language-agnostic",
+    "code retrieval",
+    "low-rank decomposition",
+    "multi-language code models"
+   ],
+   "field": "多语言代码表征学习",
+   "innovations": [
+    "首次验证多语言代码模型嵌入可分解为语法/语义二分结构",
+    "提出三种后验去语言化方法（Centering/LRD/CS-LRD），无需微调即可提升跨语言代码检索 MRR 最高 +17",
+    "证明仅需 100 条/语言的估计集即可有效估计并移除语法分量"
+   ],
+   "benchmarks": [
+    "XLCoST",
+    "CSN (CodeSearchNet)"
+   ]
+  }
+ }
 }

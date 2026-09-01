@@ -4,5 +4,10 @@
  "title": "DEMO-A-Statistical-Perspective-for-Efficient-Image-Text-Matc",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/79615072-f888-44e1-a366-8e6eab89a54f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/79615072-f888-44e1-a366-8e6eab89a54f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:25:34",
+  "chunks": 1
+ }
 }

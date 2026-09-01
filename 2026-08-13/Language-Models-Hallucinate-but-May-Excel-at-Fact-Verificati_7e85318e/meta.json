@@ -4,5 +4,35 @@
  "title": "Language-Models-Hallucinate-but-May-Excel-at-Fact-Verificati",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 05:39:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/909c4d74-3d63-479d-b183-720cce8aa58e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/909c4d74-3d63-479d-b183-720cce8aa58e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:28:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination",
+    "fact verification",
+    "large language models",
+    "LLM evaluation",
+    "retrieval-augmented generation"
+   ],
+   "field": "大语言模型事实性与可信生成",
+   "innovations": [
+    "发现生成能力最弱的FLAN-T5_11B作为fact verifier胜过GPT-3.5和ChatGPT",
+    "提出句级验证+聚合优于直接段落验证的长文本评估策略",
+    "系统分析LLM验证器在证据质量、提示鲁棒性、泛化能力三维度上的差异"
+   ],
+   "benchmarks": [
+    "FEVER",
+    "BoolQ-FV",
+    "FM2",
+    "PubMedQA",
+    "XsumFaith",
+    "SummEval",
+    "SciFact",
+    "FactPrompts"
+   ]
+  }
+ }
 }

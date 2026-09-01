@@ -4,5 +4,30 @@
  "title": "Dial-MAE-ConTextual-Masked-Auto-Encoder-for-Retrieval-based",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 05:40:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c33adf20-6f79-4d64-90d4-48ee71e6fd51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c33adf20-6f79-4d64-90d4-48ee71e6fd51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:25:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话响应选择",
+    "Dense Encoder",
+    "Post-training",
+    "Masked Auto-Encoder",
+    "Bi-encoder",
+    "检索式对话系统"
+   ],
+   "field": "对话系统与信息检索",
+   "innovations": [
+    "提出 Dial-MAE，专为 bi-encoder 设计的 post-training 方法实现上下文与响应特征对齐",
+    "非对称 encoder-decoder 架构配合不对称掩码策略增强对话 embedding 表达力",
+    "在 Ubuntu 和 E-commerce 基准上取得 state-of-the-art 性能"
+   ],
+   "benchmarks": [
+    "Ubuntu Corpus",
+    "E-commerce Corpus"
+   ]
+  }
+ }
 }

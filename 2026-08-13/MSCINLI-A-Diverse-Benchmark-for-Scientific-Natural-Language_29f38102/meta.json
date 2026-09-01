@@ -4,5 +4,32 @@
  "title": "MSCINLI-A-Diverse-Benchmark-for-Scientific-Natural-Language",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:40:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d1aa72b3-a7f3-4241-8aaa-7669611091cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d1aa72b3-a7f3-4241-8aaa-7669611091cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学自然语言推理",
+    "多领域基准",
+    "大语言模型评测",
+    "域偏移",
+    "中间任务迁移"
+   ],
+   "field": "科学NLP/自然语言推理",
+   "innovations": [
+    "提出首个涵盖五个科学领域的多领域科学NLI数据集MSCINLI",
+    "系统评估PLM和LLM在科学推理任务上的性能上限并揭示LLM在此任务上的显著不足",
+    "通过数据制图和跨数据集实验揭示数据多样性对模型鲁棒性和下游任务性能的提升作用"
+   ],
+   "benchmarks": [
+    "MSCINLI",
+    "SCINLI",
+    "ACL-ARC",
+    "SCIHTC",
+    "Paper Field"
+   ]
+  }
+ }
 }

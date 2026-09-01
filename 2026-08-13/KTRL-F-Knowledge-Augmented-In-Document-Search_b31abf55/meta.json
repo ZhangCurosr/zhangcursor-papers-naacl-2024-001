@@ -4,5 +4,28 @@
  "title": "KTRL-F-Knowledge-Augmented-In-Document-Search",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c30ab131-dafd-429e-baeb-7efd48bc17da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c30ab131-dafd-429e-baeb-7efd48bc17da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:27:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "in-document search",
+    "knowledge augmentation",
+    "phrase retrieval",
+    "real-time search",
+    "external knowledge"
+   ],
+   "field": "信息检索与知识增强",
+   "innovations": [
+    "提出KTRL+F任务，将外部知识增强、实时性与全目标召回统一于in-document search",
+    "Knowledge-Augmented Phrase Retrieval通过简单相加融合Wikipedia知识与短语嵌入，无需额外训练",
+    "构建首个面向知识超越文档的in-document search数据集（512查询/98文档）并提供适配评估指标"
+   ],
+   "benchmarks": [
+    "KTRL+F"
+   ]
+  }
+ }
 }

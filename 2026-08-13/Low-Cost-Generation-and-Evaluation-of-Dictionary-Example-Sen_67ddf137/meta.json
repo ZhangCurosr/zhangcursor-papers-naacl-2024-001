@@ -4,5 +4,30 @@
  "title": "Low-Cost-Generation-and-Evaluation-of-Dictionary-Example-Sen",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 05:40:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffbcaa1c-4dc4-438e-91ac-e8d6826c4c02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ffbcaa1c-4dc4-438e-91ac-e8d6826c4c02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:28:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "词典例句生成",
+    "大语言模型",
+    "掩码语言模型",
+    "自动评估",
+    "OxfordEval",
+    "零样本学习"
+   ],
+   "field": "自然语言生成与评估",
+   "innovations": [
+    "提出基于LLM零样本生成和MLM选句的低成本词典例句生成框架FM-MLM",
+    "设计OxfordEval自动评估指标，通过LLM竞争比较评估生成句子质量",
+    "创新性地使用预训练MLM的掩码预测概率作为衡量句子对词义体现程度的例句分"
+   ],
+   "benchmarks": [
+    "OxfordEval win-rate",
+    "Flesch-Kincaid Grade Level (FKGL)"
+   ]
+  }
+ }
 }

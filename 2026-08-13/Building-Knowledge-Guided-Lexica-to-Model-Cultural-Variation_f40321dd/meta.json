@@ -4,5 +4,32 @@
  "title": "Building-Knowledge-Guided-Lexica-to-Model-Cultural-Variation",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5862afe-4fd0-440d-943c-1bd13dbe25cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c5862afe-4fd0-440d-943c-1bd13dbe25cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:24:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cultural variation",
+    "lexicon induction",
+    "individualism-collectivism",
+    "knowledge-guided lexica",
+    "social media analysis",
+    "LLM cultural awareness",
+    "regional NLP"
+   ],
+   "field": "文化计算与跨文化NLP",
+   "innovations": [
+    "提出知识引导词库(KGL)框架解决低资源文化构念测量问题",
+    "揭示LLM在地域persona下仍无法复现真实文化变体",
+    "实现美国县级细粒度个人主义/集体主义文化地图"
+   ],
+   "benchmarks": [
+    "Vandello & Cohen Collectivism Scores",
+    "Global Collectivism Index (GCI)",
+    "County Tweet Lexical Bank"
+   ]
+  }
+ }
 }

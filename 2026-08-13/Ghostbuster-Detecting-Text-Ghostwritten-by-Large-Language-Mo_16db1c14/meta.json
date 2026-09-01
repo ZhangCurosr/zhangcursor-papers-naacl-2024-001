@@ -4,5 +4,10 @@
  "title": "Ghostbuster-Detecting-Text-Ghostwritten-by-Large-Language-Mo",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a062c0e-c5ee-4af1-b366-debcc60a6ba0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a062c0e-c5ee-4af1-b366-debcc60a6ba0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:26:57",
+  "chunks": 1
+ }
 }

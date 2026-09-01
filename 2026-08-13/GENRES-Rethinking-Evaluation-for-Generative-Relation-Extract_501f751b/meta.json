@@ -4,5 +4,33 @@
  "title": "GENRES-Rethinking-Evaluation-for-Generative-Relation-Extract",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 05:40:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/56e55b7b-d35f-4df9-b1f8-351f025a23ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-12/56e55b7b-d35f-4df9-b1f8-351f025a23ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:26:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "生成式关系提取",
+    "大语言模型评估",
+    "知识抽取",
+    "多维评分框架",
+    "Open GRE"
+   ],
+   "field": "信息抽取与知识图谱",
+   "innovations": [
+    "提出GENRES多维评估框架，首次系统化评估GRE任务的主题相似性、唯一性、事实性、粒度与完整性",
+    "揭示传统PRF指标在Open GRE场景下完全失效的实证结论",
+    "建立14个主流LLM的Open GRE基准并验证与人偏好的高一致性"
+   ],
+   "benchmarks": [
+    "CDR",
+    "DocRED",
+    "NYT10m",
+    "Wiki20m",
+    "TACRED",
+    "Wiki80"
+   ]
+  }
+ }
 }

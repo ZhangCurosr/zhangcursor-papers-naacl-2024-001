@@ -4,5 +4,34 @@
  "title": "Head-to-Tail-How-Knowledgeable-are-Large-Language-Models-LLM",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 05:40:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c3016591-9a6b-4844-9b70-20785ac6f396.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c3016591-9a6b-4844-9b70-20785ac6f396.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:26:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM factuality",
+    "knowledge graph",
+    "long-tail knowledge",
+    "benchmark",
+    "hallucination",
+    "head-to-tail evaluation"
+   ],
+   "field": "LLM事实性与知识评估",
+   "innovations": [
+    "构建首个按head/torso/tail分层评估LLM事实性的18K QA基准",
+    "提出A/H/M三指标与LLM裁判自动评测方法并验证高一致性",
+    "揭示模型增大与指令微调不必然提升事实性知识的系统性证据"
+   ],
+   "benchmarks": [
+    "Head-to-Tail",
+    "DBpedia",
+    "IMDb",
+    "Goodreads",
+    "MAG",
+    "DBLP"
+   ]
+  }
+ }
 }

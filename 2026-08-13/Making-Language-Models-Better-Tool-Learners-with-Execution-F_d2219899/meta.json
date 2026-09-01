@@ -4,5 +4,38 @@
  "title": "Making-Language-Models-Better-Tool-Learners-with-Execution-F",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 05:40:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd59106b-16b9-4a0c-925e-ff9cc04a4e52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd59106b-16b9-4a0c-925e-ff9cc04a4e52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:29:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tool Learning",
+    "执行反馈",
+    "选择性工具使用",
+    "强化学习",
+    "两阶段训练",
+    "LoRA微调"
+   ],
+   "field": "大模型工具使用与强化学习",
+   "innovations": [
+    "提出TRICE两阶段框架结合行为克隆与执行反馈强化学习，实现选择性工具使用",
+    "设计基于工具执行结果的排名损失与五档评分奖励策略",
+    "利用模型预测正确性自动构建工具使用训练数据，无需人工标注"
+   ],
+   "benchmarks": [
+    "ASDiv",
+    "GSM8K",
+    "WebQuestions",
+    "NaturalQuestions",
+    "TriviaQA",
+    "T-REx",
+    "MLQA",
+    "MultiArith",
+    "AddSub",
+    "HotpotQA"
+   ]
+  }
+ }
 }

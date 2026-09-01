@@ -4,5 +4,31 @@
  "title": "Measuring-and-Improving-Chain-of-Thought-Reasoning-in-Vision",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7974013f-dd4c-4559-b88b-1e926b583738.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7974013f-dd4c-4559-b88b-1e926b583738.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:29:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "链式推理",
+    "推理一致性",
+    "RLAIF",
+    "多模态评估"
+   ],
+   "field": "视觉-语言推理",
+   "innovations": [
+    "提出CURE基准及正向/反向推理一致性指标体系",
+    "设计LLM-Human-in-the-Loop半自动数据构建管道",
+    "提出两阶段SFT+RLAIF训练框架提升VLM推理能力"
+   ],
+   "benchmarks": [
+    "CURE",
+    "Sherlock",
+    "LLaVA",
+    "BLIP-2"
+   ]
+  }
+ }
 }

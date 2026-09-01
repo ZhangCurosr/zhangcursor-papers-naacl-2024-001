@@ -4,5 +4,10 @@
  "title": "Krey-l-MT-Building-MT-for-Latin-American-Caribbean-and-Colon",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 05:40:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f40d3a1-3966-4cab-87f6-ddda56c83679.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f40d3a1-3966-4cab-87f6-ddda56c83679.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:27:57",
+  "chunks": 1
+ }
 }

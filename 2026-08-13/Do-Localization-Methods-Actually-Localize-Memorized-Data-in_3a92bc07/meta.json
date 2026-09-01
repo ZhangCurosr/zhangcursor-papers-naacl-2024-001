@@ -4,5 +4,30 @@
  "title": "Do-Localization-Methods-Actually-Localize-Memorized-Data-in",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce94641c-3a16-4b7c-af48-72941a86c07a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ce94641c-3a16-4b7c-af48-72941a86c07a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:25:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM可解释性",
+    "记忆定位",
+    "网络剪枝",
+    "机器遗忘",
+    "知识神经元",
+    "模型编辑"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出INJ Benchmark通过主动注入创建ground truth直接评估定位",
+    "Adapt网络剪枝方法用于定位且表现最优",
+    "双基准验证揭示定位方法与擦除能力的关系"
+   ],
+   "benchmarks": [
+    "INJ Benchmark",
+    "DEL Benchmark"
+   ]
+  }
+ }
 }

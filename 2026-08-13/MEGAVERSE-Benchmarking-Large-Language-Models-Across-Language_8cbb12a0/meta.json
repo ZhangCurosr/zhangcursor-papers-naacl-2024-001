@@ -4,5 +4,10 @@
  "title": "MEGAVERSE-Benchmarking-Large-Language-Models-Across-Language",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eda7cbfd-9591-4369-9c11-28929368d1e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eda7cbfd-9591-4369-9c11-28929368d1e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:30:37",
+  "chunks": 3
+ }
 }

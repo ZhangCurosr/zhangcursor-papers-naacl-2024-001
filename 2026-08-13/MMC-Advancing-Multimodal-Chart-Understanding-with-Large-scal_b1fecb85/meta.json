@@ -4,5 +4,32 @@
  "title": "MMC-Advancing-Multimodal-Chart-Understanding-with-Large-scal",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 05:39:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/17bfc1ce-f7ad-4fbc-914a-ca0731ae40c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/17bfc1ce-f7ad-4fbc-914a-ca0731ae40c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:29:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图表理解",
+    "多模态大模型",
+    "指令微调",
+    "视觉语言模型",
+    "Benchmark",
+    "MMC-Instruction"
+   ],
+   "field": "多模态理解",
+   "innovations": [
+    "构建600k大规模图表指令微调数据集MMC-Instruction，通过GPT-4生成多样化开放-ended指令数据",
+    "提出首个9类任务人类标注图表理解基准MMC-Benchmark及双评估协议",
+    "两阶段指令微调策略MMCA，联合优化视觉编码器和语言模型以提升图表理解能力"
+   ],
+   "benchmarks": [
+    "MMC-Benchmark",
+    "ChartQA",
+    "DocVQA",
+    "TextVQA"
+   ]
+  }
+ }
 }

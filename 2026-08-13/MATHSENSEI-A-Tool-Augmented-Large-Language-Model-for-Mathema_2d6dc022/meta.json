@@ -4,5 +4,32 @@
  "title": "MATHSENSEI-A-Tool-Augmented-Large-Language-Model-for-Mathema",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 05:39:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f6f7140-5c59-4fee-8543-0fcee7d40365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f6f7140-5c59-4fee-8543-0fcee7d40365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:28:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tool-Augmented LLM",
+    "Mathematical Reasoning",
+    "MATH Dataset",
+    "WolframAlpha",
+    "Program-Guided Solving",
+    "Chain-of-Thought"
+   ],
+   "field": "数学推理与工具增强语言模型",
+   "innovations": [
+    "系统评估TALM在多数学数据集上的工具互补收益，揭示增益随复杂度递增规律",
+    "提出MATHSENSEI框架，PG+WA+SG配置在MATH上达47.6%，超越gpt-3.5-turbo+CoT 13.5%",
+    "量化验证Plan-And-Solve和REACT规划策略对数学TALM的收益有限，指出数学专用规划方法需求"
+   ],
+   "benchmarks": [
+    "MATH",
+    "GSM-8K",
+    "AQUA-RAT",
+    "MMLU-Math"
+   ]
+  }
+ }
 }

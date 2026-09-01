@@ -4,5 +4,29 @@
  "title": "GRASP-A-Disagreement-Analysis-Framework-to-Assess-Group-Asso",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 05:40:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e6d1ff7-e632-4619-8d4f-5e975ad9ccb1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e6d1ff7-e632-4619-8d4f-5e975ad9ccb1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:26:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "分组分析",
+    "标注者分歧",
+    "人口统计相关性",
+    "主观NLP",
+    "统计检验"
+   ],
+   "field": "主观NLP任务中的分析框架",
+   "innovations": [
+    "提出GAI指标量化群体视角关联强度",
+    "构建基于置换检验的通用分歧分析框架",
+    "定义DSI指导多样性标注者招聘优先级"
+   ],
+   "benchmarks": [
+    "DICES-350",
+    "D3"
+   ]
+  }
+ }
 }

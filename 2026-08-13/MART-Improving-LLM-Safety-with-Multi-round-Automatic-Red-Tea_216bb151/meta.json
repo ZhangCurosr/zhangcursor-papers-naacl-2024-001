@@ -4,5 +4,31 @@
  "title": "MART-Improving-LLM-Safety-with-Multi-round-Automatic-Red-Tea",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 05:40:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f8495922-b9e9-4f1c-a9a3-a0ecfe6816eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f8495922-b9e9-4f1c-a9a3-a0ecfe6816eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:28:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "安全对齐",
+    "自动红队测试",
+    "对抗性训练",
+    "大语言模型",
+    "Reward Model",
+    "SFT"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "多轮自动红队闭环框架：对抗LLM与目标LLM迭代交互",
+    "双RM阈值筛选机制兼顾安全与有用性",
+    "仅需2k种子提示实现84.7%违规率下降"
+   ],
+   "benchmarks": [
+    "SafeEval",
+    "Anthropic Harmless",
+    "AlpacaEval"
+   ]
+  }
+ }
 }

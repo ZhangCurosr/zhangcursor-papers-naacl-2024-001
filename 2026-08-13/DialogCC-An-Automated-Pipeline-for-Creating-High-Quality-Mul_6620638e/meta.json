@@ -4,5 +4,10 @@
  "title": "DialogCC-An-Automated-Pipeline-for-Creating-High-Quality-Mul",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 05:40:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e9bdcd0c-0584-46b6-9f0c-bacd35d4836c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e9bdcd0c-0584-46b6-9f0c-bacd35d4836c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:25:47",
+  "chunks": 1
+ }
 }
