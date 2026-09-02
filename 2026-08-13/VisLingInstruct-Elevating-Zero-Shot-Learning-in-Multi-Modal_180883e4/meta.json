@@ -4,5 +4,38 @@
  "title": "VisLingInstruct-Elevating-Zero-Shot-Learning-in-Multi-Modal",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-13 14:54:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/275e9bc3-8524-4a62-a798-d966ecac75ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/275e9bc3-8524-4a62-a798-d966ecac75ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 01:45:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态语言模型",
+    "零样本学习",
+    "指令优化",
+    "上下文学习",
+    "跨模态对齐",
+    "视觉-语言"
+   ],
+   "field": "多模态大模型指令优化与零样本学习",
+   "innovations": [
+    "提出基于IAS与ICL的自主指令优化机制，无需人工标注即可在推理阶段自优化指令",
+    "设计CMAA跨模态对齐注意力模块，在保留InstructBLIP权重基础上增强图文融合",
+    "在TextVQA与HatefulMemes上分别以13.1%和9%超此前SOTA"
+   ],
+   "benchmarks": [
+    "TextVQA",
+    "HatefulMemes",
+    "ScienceQA",
+    "Flickr30K",
+    "No-Caps",
+    "GQA",
+    "VSR",
+    "IconQA",
+    "VizWiz",
+    "Visual Dialog"
+   ]
+  }
+ }
 }

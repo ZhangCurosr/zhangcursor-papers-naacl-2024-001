@@ -4,5 +4,43 @@
  "title": "Unveiling-the-Generalization-Power-of-Fine-Tuned-Large-Langu",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 06:51:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e47be4e1-9dcf-484c-b25b-3257034c1de7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e47be4e1-9dcf-484c-b25b-3257034c1de7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 01:45:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fine-tuning generalization",
+    "in-context learning",
+    "FTICL",
+    "out-of-domain evaluation",
+    "generation vs classification",
+    "large language models"
+   ],
+   "field": "大语言模型微调与泛化",
+   "innovations": [
+    "系统性揭示生成与分类任务微调后泛化行为的差异",
+    "提出FTICL策略在生成任务微调时结合上下文示例以提升泛化能力",
+    "发现微调后ICL能力退化并提出输出空间专门化解释"
+   ],
+   "benchmarks": [
+    "XSum",
+    "Socialqa",
+    "Amazon",
+    "Paws",
+    "MNLI",
+    "PeerRead",
+    "CNN/DailyMail",
+    "Tweetqa",
+    "Sciqa",
+    "SST2",
+    "Yelp",
+    "QQP",
+    "STS-B",
+    "RTE",
+    "GPTNLI"
+   ]
+  }
+ }
 }

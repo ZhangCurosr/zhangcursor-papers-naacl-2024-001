@@ -4,5 +4,35 @@
  "title": "V-Attack-Taking-advantage-of-Text-Classifiers-horizontal-vis",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:54:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a91f1a2-a2ab-4b76-9a3f-cd9b337d77ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a91f1a2-a2ab-4b76-9a3f-cd9b337d77ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 01:45:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial attack",
+    "text classification",
+    "blackbox attack",
+    "vertical text",
+    "robustness",
+    "transferability",
+    "NLP security"
+   ],
+   "field": "文本对抗攻击与鲁棒性",
+   "innovations": [
+    "利用分类器无法识别垂直文字的结构性弱点设计VertAttack攻击",
+    "在不替换词的前提下实现高攻击强度并保持人类可读性",
+    "提出chaff增强策略对抗Reverse防御机制"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "AG News",
+    "CoLA",
+    "QNLI",
+    "Rotten Tomatoes",
+    "OLID"
+   ]
+  }
+ }
 }

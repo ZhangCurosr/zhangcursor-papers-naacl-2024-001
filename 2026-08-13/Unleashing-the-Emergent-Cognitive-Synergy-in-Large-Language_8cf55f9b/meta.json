@@ -4,5 +4,10 @@
  "title": "Unleashing-the-Emergent-Cognitive-Synergy-in-Large-Language",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-13 14:54:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a21bc5a4-3fac-41cf-9b5b-07562eb103af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a21bc5a4-3fac-41cf-9b5b-07562eb103af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 01:45:14",
+  "chunks": 1
+ }
 }

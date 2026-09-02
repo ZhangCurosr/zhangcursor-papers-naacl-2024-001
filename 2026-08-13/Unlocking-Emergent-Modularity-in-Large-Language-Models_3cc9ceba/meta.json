@@ -4,5 +4,10 @@
  "title": "Unlocking-Emergent-Modularity-in-Large-Language-Models",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:54:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b167b61c-3a2a-455c-904d-af3691e0a439.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b167b61c-3a2a-455c-904d-af3691e0a439.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 01:45:30",
+  "chunks": 1
+ }
 }

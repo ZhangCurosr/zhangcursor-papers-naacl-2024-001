@@ -4,5 +4,10 @@
  "title": "V-Attack-Taking-advantage-of-Text-Classifiers-horizontal-vis",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 03:39:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a91f1a2-a2ab-4b76-9a3f-cd9b337d77ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a91f1a2-a2ab-4b76-9a3f-cd9b337d77ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 01:45:42",
+  "chunks": 1
+ }
 }

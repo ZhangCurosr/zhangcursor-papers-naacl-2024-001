@@ -4,5 +4,33 @@
  "title": "VOLCANO-Mitigating-Multimodal-Hallucination-through-Self-Fee",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:54:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5fed3127-2796-4055-bb8f-4a029b34e18e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5fed3127-2796-4055-bb8f-4a029b34e18e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 01:45:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态幻觉",
+    "自反馈",
+    "大多模态模型",
+    "迭代修订",
+    "视觉 grounding",
+    "LLaVA"
+   ],
+   "field": "多模态大模型幻觉缓解",
+   "innovations": [
+    "首个单模型自反馈引导迭代修订框架（批判-修订-决策循环）",
+    "证明自然语言反馈比标量奖励信号更有效地减少多模态幻觉",
+    "通过注意力可视化定量验证反馈比初始回答具有更强的视觉关注和覆盖"
+   ],
+   "benchmarks": [
+    "MMHal-Bench",
+    "POPE",
+    "GAVIE",
+    "MM-Vet",
+    "MMBench"
+   ]
+  }
+ }
 }
