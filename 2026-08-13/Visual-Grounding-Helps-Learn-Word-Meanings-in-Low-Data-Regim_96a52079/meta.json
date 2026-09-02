@@ -4,5 +4,35 @@
  "title": "Visual-Grounding-Helps-Learn-Word-Meanings-in-Low-Data-Regim",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:51:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63f3d316-9239-4da4-b827-445914ffb712.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63f3d316-9239-4da4-b827-445914ffb712.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:17:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual grounding",
+    "word learning",
+    "low-data regime",
+    "multimodal language models",
+    "CLIP",
+    "GIT",
+    "Flamingo"
+   ],
+   "field": "多模态语言表征与词汇习得",
+   "innovations": [
+    "构建六维词汇学习基准系统评测 grounded vs ungrounded 模型",
+    "提出 Visual+Word 单标签范式解耦视觉与分布信号",
+    "揭示 CLIP/GIT/Flamingo 三种融合策略在低数据下的效率差异与竞争机制"
+   ],
+   "benchmarks": [
+    "MEN",
+    "CogALex-V",
+    "Buchanan Semantic Features",
+    "POS Prediction",
+    "Context-based Word Understanding",
+    "Brain-Response Prediction"
+   ]
+  }
+ }
 }
