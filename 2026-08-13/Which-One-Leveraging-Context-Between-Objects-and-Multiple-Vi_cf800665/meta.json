@@ -4,5 +4,27 @@
  "title": "Which-One-Leveraging-Context-Between-Objects-and-Multiple-Vi",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:10:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b91465b7-3798-4af2-9df8-9725de5b112a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b91465b7-3798-4af2-9df8-9725de5b112a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:25:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Language Grounding",
+    "Multi-view Reasoning",
+    "SNARE Benchmark",
+    "Transformer",
+    "3D Vision-Language"
+   ],
+   "field": "视觉-语言地面化与多模态理解",
+   "innovations": [
+    "联合推理多物体上下文与多视角的Transformer架构",
+    "无需显式3D特征即可超越依赖体素表示的SOTA方法"
+   ],
+   "benchmarks": [
+    "SNARE"
+   ]
+  }
+ }
 }

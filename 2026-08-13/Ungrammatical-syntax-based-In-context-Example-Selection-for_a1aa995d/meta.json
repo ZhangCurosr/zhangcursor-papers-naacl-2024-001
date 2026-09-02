@@ -4,5 +4,31 @@
  "title": "Ungrammatical-syntax-based-In-context-Example-Selection-for",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 03:39:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe75de79-226e-49a5-91c4-085f9fdf5561.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fe75de79-226e-49a5-91c4-085f9fdf5561.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:24:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-context Learning",
+    "Grammatical Error Correction",
+    "Syntactic Similarity",
+    "Tree Kernel",
+    "Polynomial Distance",
+    "Example Selection",
+    "LLM Prompting"
+   ],
+   "field": "语法错误纠正",
+   "innovations": [
+    "首次将非语法句法相似性引入 GEC 的 ICL 示例选择",
+    "设计两阶段 select-then-rank 框架适配句法相似度计算",
+    "提出加权 Polynomial Distance 以强化错误节点匹配"
+   ],
+   "benchmarks": [
+    "BEA-2019",
+    "CoNLL-2014"
+   ]
+  }
+ }
 }

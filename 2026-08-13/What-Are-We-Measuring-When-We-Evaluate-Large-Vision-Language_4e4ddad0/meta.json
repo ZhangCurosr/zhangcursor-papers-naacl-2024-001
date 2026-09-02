@@ -4,5 +4,39 @@
  "title": "What-Are-We-Measuring-When-We-Evaluate-Large-Vision-Language",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 06:51:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ade43f2-5610-4c2e-a72b-dfd859bed2f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ade43f2-5610-4c2e-a72b-dfd859bed2f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:26:49",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "视觉-语言模型",
+    "跨任务迁移",
+    "OLIVE数据集",
+    "因子分析",
+    "零样本学习",
+    "VLM评估"
+   ],
+   "field": "多模态大模型评估与迁移学习",
+   "innovations": [
+    "提出经人工审核的OLIVE数据集解决ChatGPT幻觉问题",
+    "首次对VLM跨任务迁移矩阵进行因子分析揭示6个潜在公因子结构",
+    "澄清数据规模与质量对迁移能力的非单调影响"
+   ],
+   "benchmarks": [
+    "OLIVE",
+    "COCO Caption",
+    "VQAv2",
+    "A-OKVQA",
+    "ScienceQA",
+    "GQA",
+    "IconQA",
+    "CLEVR",
+    "TextVQA",
+    "OCR-VQA",
+    "ChartQA"
+   ]
+  }
+ }
 }

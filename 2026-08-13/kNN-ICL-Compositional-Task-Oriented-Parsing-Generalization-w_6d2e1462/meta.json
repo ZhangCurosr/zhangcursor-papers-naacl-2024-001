@@ -4,5 +4,32 @@
  "title": "kNN-ICL-Compositional-Task-Oriented-Parsing-Generalization-w",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:54:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3190e3d9-3b4d-4c27-b211-587a17a09929.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3190e3d9-3b4d-4c27-b211-587a17a09929.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:26:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Task-Oriented Parsing",
+    "In-Context Learning",
+    "kNN-Retrieval",
+    "Semantic Parsing",
+    "Code Generation",
+    "Prompt Design"
+   ],
+   "field": "任务导向语义解析",
+   "innovations": [
+    "将TOP重构为代码生成任务以利用LLM预训练知识",
+    "提出kNN-ICL框架结合检索与上下文学习突破输入长度限制",
+    "系统分析提示设计策略对不同能力模型的影响"
+   ],
+   "benchmarks": [
+    "TOPv2 Navigation",
+    "TOPv2 Reminder",
+    "TOPv2 Alarm",
+    "TOPv2 Weather"
+   ]
+  }
+ }
 }

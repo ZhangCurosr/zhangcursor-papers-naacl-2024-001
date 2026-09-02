@@ -4,5 +4,30 @@
  "title": "When-Life-Gives-You-Lemons-Make-Cherryade-Converting-Feedbac",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:10:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/69ea3560-57de-4646-9a4a-527d7b3aec02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/69ea3560-57de-4646-9a4a-527d7b3aec02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:25:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话系统",
+    "人类反馈",
+    "数据增强",
+    "对话修正",
+    "稀疏标注",
+    "持续学习"
+   ],
+   "field": "开放域对话系统",
+   "innovations": [
+    "提出JUICER四步框架，通过满意度分类器扩展稀疏标注并利用自由文本反馈生成高质量修正回复",
+    "引入可修正性筛选和reranking机制，从稀疏反馈中最大化利用有效信号",
+    "设计DIRECTOR OVERLAP变体，利用坏/好回复对的重叠token改进正负样本判别"
+   ],
+   "benchmarks": [
+    "FITS",
+    "DEMO"
+   ]
+  }
+ }
 }

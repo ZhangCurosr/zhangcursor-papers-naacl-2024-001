@@ -4,5 +4,30 @@
  "title": "What-ifyou-said-that-differently-How-Explanation-Formats-Aff",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:10:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63fa96ee-1e58-4ae0-ba8e-6ecac0ba16cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63fa96ee-1e58-4ae0-ba8e-6ecac0ba16cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:25:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "decomposed QA",
+    "rationale format",
+    "human feedback",
+    "explainability",
+    "question answering",
+    "user perception"
+   ],
+   "field": "可解释人工智能 / 人机交互",
+   "innovations": [
+    "系统比较5种Rationale格式在用户反馈修复有效性和用户感知可信度上的差异",
+    "揭示主观反馈易用性与客观修复成功率不相关的现象",
+    "量化Attribution和Depth of reasoning为用户最看重的Rationale属性"
+   ],
+   "benchmarks": [
+    "Quoref",
+    "PubMedQA"
+   ]
+  }
+ }
 }

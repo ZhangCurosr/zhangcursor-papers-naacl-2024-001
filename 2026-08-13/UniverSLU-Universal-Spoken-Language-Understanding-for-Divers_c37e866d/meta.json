@@ -4,5 +4,38 @@
  "title": "UniverSLU-Universal-Spoken-Language-Understanding-for-Divers",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-13 14:54:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9381ac53-d458-4943-b864-4b378efe129b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9381ac53-d458-4943-b864-4b378efe129b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:24:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spoken language understanding",
+    "multi-task learning",
+    "instruction tuning",
+    "speech foundation model",
+    "zero-shot generalization",
+    "prompt-based learning"
+   ],
+   "field": "多任务语音理解",
+   "innovations": [
+    "自然语言指令结合选项列表的提示机制实现多任务SLU统一建模",
+    "首个在语音基础模型解码器上进行instruction tuning的多任务框架",
+    "通过选项顺序随机打乱和低资源上采样提升零样本泛化能力"
+   ],
+   "benchmarks": [
+    "SNIPS",
+    "FSC",
+    "Google SC v1",
+    "IEMOCAP",
+    "ASVspoof",
+    "SLURP",
+    "STOP",
+    "Voxforge",
+    "AccentDB",
+    "ESC-50"
+   ]
+  }
+ }
 }

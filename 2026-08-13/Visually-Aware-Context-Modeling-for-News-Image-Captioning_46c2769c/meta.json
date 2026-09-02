@@ -4,5 +4,31 @@
  "title": "Visually-Aware-Context-Modeling-for-News-Image-Captioning",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-13 14:54:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0b5aed61-7aaf-4c8b-a86d-0edea6e573e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0b5aed61-7aaf-4c8b-a86d-0edea6e573e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:25:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "News Image Captioning",
+    "Visually-Aware Context Modeling",
+    "Face Naming Module",
+    "CLIP Retrieval",
+    "CoLaM",
+    "Multimodal Generation",
+    "Entity-Aware Captioning"
+   ],
+   "field": "多模态自然语言处理/新闻图像描述",
+   "innovations": [
+    "设计人脸命名模块利用人脸-人名共现模式",
+    "提出CLIP驱动的语义句子检索策略",
+    "提出通用CoLaM对比训练范式强化文章上下文学习"
+   ],
+   "benchmarks": [
+    "GoodNews",
+    "NYTimes800k"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "Strings-from-the-Library-of-Babel-Random-Sampling-as-a-Stron",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-13 03:40:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a03cd03-0a23-4177-8207-1c2536c6e4d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a03cd03-0a23-4177-8207-1c2536c6e4d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:23:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt optimization",
+    "random sampling",
+    "separator",
+    "in-context learning",
+    "text classification",
+    "language model"
+   ],
+   "field": "提示工程与语言模型应用",
+   "innovations": [
+    "证明随机采样的separator可媲美人类设计和自优化方法",
+    "提出三种从词表/语言模型分布采样separator的策略",
+    "揭示语言空间中超过40%随机separator优于人类baseline"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "SST-5",
+    "MR",
+    "CR",
+    "MPQA",
+    "Subj",
+    "TREC",
+    "AGNews",
+    "DBPedia",
+    "GSM8K"
+   ]
+  }
+ }
 }

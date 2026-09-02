@@ -4,5 +4,33 @@
  "title": "X-PARADE-Cross-Lingual-Textual-Entailment-and-Information-Di",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 06:51:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f224c716-7102-4818-9183-7303bfee6431.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f224c716-7102-4818-9183-7303bfee6431.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:25:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-lingual textual entailment",
+    "information divergence",
+    "span annotation",
+    "paragraph-level NLI",
+    "LLM evaluation",
+    "X-PARADE"
+   ],
+   "field": "跨语言自然语言推理与细粒度语义分析",
+   "innovations": [
+    "首个跨语言段落级 Same/Inferable/New span 标注数据集",
+    "统一对比 MT 对齐、NLI 定位与 LLM 提示方法",
+    "提出 Inferable 并集裁决与 Human* 人机基线评估"
+   ],
+   "benchmarks": [
+    "X-PARADE",
+    "GPT-4",
+    "SLR-NLI",
+    "NLI Attribution (IG)",
+    "SimAlign"
+   ]
+  }
+ }
 }

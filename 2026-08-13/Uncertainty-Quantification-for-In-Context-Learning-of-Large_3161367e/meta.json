@@ -4,5 +4,34 @@
  "title": "Uncertainty-Quantification-for-In-Context-Learning-of-Large",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:10:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e57c6b9b-9bb1-4c4e-b58c-c69f30cd2f8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e57c6b9b-9bb1-4c4e-b58c-c69f30cd2f8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:24:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Uncertainty Quantification",
+    "In-Context Learning",
+    "Large Language Models",
+    "Aleatoric Uncertainty",
+    "Epistemic Uncertainty",
+    "Entropy Decomposition",
+    "Out-of-Distribution Detection"
+   ],
+   "field": "大语言模型可靠性与不确定性量化",
+   "innovations": [
+    "首次将ICL预测不确定性分解为源于演示数据的AU和源于模型配置的EU",
+    "提出基于互信息和熵近似的可计算分解框架，适配自由文本输出",
+    "证明EU和AU在OOD演示检测和SOOD检测中具有差异化指示价值"
+   ],
+   "benchmarks": [
+    "EMOTION",
+    "Financial Phrasebank",
+    "SST2",
+    "COLA",
+    "AG_News"
+   ]
+  }
+ }
 }

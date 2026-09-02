@@ -4,5 +4,31 @@
  "title": "zrLLM-Zero-Shot-Relational-Learning-on-Temporal-Knowledge-Gr",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3f1293c-b791-4d3b-b769-944db87c44e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3f1293c-b791-4d3b-b769-944db87c44e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:26:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间知识图谱",
+    "零样本关系",
+    "大语言模型",
+    "关系嵌入",
+    "知识图谱推理",
+    "诱导学习"
+   ],
+   "field": "时间知识图谱推理",
+   "innovations": [
+    "利用LLM生成丰富关系描述并为零样本关系提供固定语义表示",
+    "设计关系历史学习器(RHL)和HPN捕捉时序关系模式以增强零样本推理",
+    "构建2021-2023年新基准数据集以规避LLM信息泄漏并系统评估零样本TKGF"
+   ],
+   "benchmarks": [
+    "ACLED-zero",
+    "ICEWS21-zero",
+    "ICEWS22-zero"
+   ]
+  }
+ }
 }

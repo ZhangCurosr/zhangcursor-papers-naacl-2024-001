@@ -4,5 +4,32 @@
  "title": "Routing-to-the-Expert-Efficient-Reward-guided-Ensemble-of-La",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 03:49:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7be1935b-76b4-4e6f-8ea5-f6ad3a929682.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7be1935b-76b4-4e6f-8ea5-f6ad3a929682.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:23:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Ensemble",
+    "Reward Model",
+    "Routing",
+    "Knowledge Distillation",
+    "Mixture of Experts"
+   ],
+   "field": "大语言模型系统集成与路由",
+   "innovations": [
+    "提出ZOOTER通过蒸馏RM奖励训练轻量路由实现高效LLM集成",
+    "引入基于标签的奖励增强技术缓解RM不确定性噪声"
+   ],
+   "benchmarks": [
+    "AlpacaEval",
+    "FLASK",
+    "MT-Bench",
+    "MMLU",
+    "GSM8K",
+    "HumanEval"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Simple-and-effective-data-augmentation-for-compositional-gen",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-13 03:49:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fb6f671-de11-4330-a90d-d6063aab7588.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fb6f671-de11-4330-a90d-d6063aab7588.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:23:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合泛化",
+    "数据增强",
+    "语义解析",
+    "回译",
+    "概率上下文无关文法",
+    "均匀分布采样"
+   ],
+   "field": "组合泛化与语义解析",
+   "innovations": [
+    "系统性比较训练/测试/均匀三种PCFG采样分布在组合泛化数据增强中的效果",
+    "发现均匀分布PCFG采样几乎等效于测试分布采样且大幅优于训练分布采样",
+    "揭示均匀分布通过增加未观察局部结构覆盖率降低测试困惑度的机制"
+   ],
+   "benchmarks": [
+    "COGS",
+    "CFQ",
+    "GeoQuery",
+    "SCAN"
+   ]
+  }
+ }
 }

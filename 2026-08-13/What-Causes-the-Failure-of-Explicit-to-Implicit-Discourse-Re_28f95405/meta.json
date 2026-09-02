@@ -4,5 +4,10 @@
  "title": "What-Causes-the-Failure-of-Explicit-to-Implicit-Discourse-Re",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-13 14:54:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eaf7dac4-451e-4f56-b3e3-04dca5b73a7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eaf7dac4-451e-4f56-b3e3-04dca5b73a7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:25:33",
+  "chunks": 1
+ }
 }

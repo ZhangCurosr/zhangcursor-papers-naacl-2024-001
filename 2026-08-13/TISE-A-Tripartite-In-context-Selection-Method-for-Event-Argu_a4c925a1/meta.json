@@ -4,5 +4,29 @@
  "title": "TISE-A-Tripartite-In-context-Selection-Method-for-Event-Argu",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 03:39:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2155244-a45b-4562-879f-79c52e2906da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2155244-a45b-4562-879f-79c52e2906da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:24:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件参数抽取",
+    "上下文学习",
+    "示例选择",
+    "确定点过程",
+    "大语言模型"
+   ],
+   "field": "信息抽取",
+   "innovations": [
+    "提出 TISE 方法，从语义相似度、示例多样性和事件相关性三个维度选择上下文示例",
+    "设计自然语言描述的事件评分器，将领域知识注入示例选择过程",
+    "利用 DPP 整合多维评分，实现高质量且多样化的示例子集选择"
+   ],
+   "benchmarks": [
+    "ACE05",
+    "RAMS"
+   ]
+  }
+ }
 }

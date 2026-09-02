@@ -4,5 +4,30 @@
  "title": "Two-Heads-are-Better-than-One-Nested-PoE-for-Robust-Defense",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-13 14:54:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bc5e46e-bf5f-4f9d-bee9-58ae77aa8390.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bc5e46e-bf5f-4f9d-bee9-58ae77aa8390.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:23:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor defense",
+    "PoE",
+    "Mixture of Experts",
+    "NLP safety",
+    "data poisoning",
+    "trigger detection"
+   ],
+   "field": "NLP安全与后门防御",
+   "innovations": [
+    "提出NPoE框架，将MoE集成嵌套进PoE以同时防御多种共存后门触发器",
+    "设计基于置信度差异与检出毒性率双指标的伪开发集构建方法，解决无监督超参选择问题"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "OffensEval",
+    "TREC COARSE"
+   ]
+  }
+ }
 }

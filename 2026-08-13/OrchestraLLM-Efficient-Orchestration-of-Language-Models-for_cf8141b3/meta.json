@@ -4,5 +4,30 @@
  "title": "OrchestraLLM-Efficient-Orchestration-of-Language-Models-for",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 05:39:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73411e60-f56d-416a-b940-46d27b7eb63a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73411e60-f56d-416a-b940-46d27b7eb63a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 00:22:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话状态追踪",
+    "模型路由",
+    "大小语言模型协同",
+    "检索增强生成",
+    "少样本学习",
+    "计算效率优化"
+   ],
+   "field": "任务型对话系统",
+   "innovations": [
+    "基于语义嵌入距离的免训练动态路由框架，实现SLM/LLM协同",
+    "任务感知与专家感知的对比学习目标设计",
+    "跨数据集与新增模型的零训练迁移能力"
+   ],
+   "benchmarks": [
+    "MultiWOZ 2.4",
+    "SGD"
+   ]
+  }
+ }
 }
